@@ -2,7 +2,7 @@
 title: have been busy (again) for MWC
 author: Tomomi Imura
 layout: post
-permalink: /2008/02/16/have-been-busy-again-for-mwc/
+permalink: /blog/2008/02/16/have-been-busy-again-for-mwc/
 categories:
   - Event
   - iPhone

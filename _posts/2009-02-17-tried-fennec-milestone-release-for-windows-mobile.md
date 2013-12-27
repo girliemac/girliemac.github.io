@@ -2,7 +2,7 @@
 title: Tried Fennec Milestone Release for Windows Mobile
 author: Tomomi Imura
 layout: post
-permalink: /2009/02/17/tried-fennec-milestone-release-for-windows-mobile/
+permalink: /blog/2009/02/17/tried-fennec-milestone-release-for-windows-mobile/
 categories:
   - Dev
   - Firefox

@@ -2,7 +2,7 @@
 title: Opera Mini Out of Beta
 author: Tomomi Imura
 layout: post
-permalink: /2007/11/10/opera-mini-out-of-beta/
+permalink: /blog/2007/11/10/opera-mini-out-of-beta/
 categories:
   - Dev
   - Opera

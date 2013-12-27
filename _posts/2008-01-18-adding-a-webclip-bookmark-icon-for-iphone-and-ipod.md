@@ -2,7 +2,7 @@
 title: Adding a WebClip Bookmark Icon for iPhone and iPod
 author: Tomomi Imura
 layout: post
-permalink: /2008/01/18/adding-a-webclip-bookmark-icon-for-iphone-and-ipod/
+permalink: /blog/2008/01/18/adding-a-webclip-bookmark-icon-for-iphone-and-ipod/
 categories:
   - Dev
   - iPhone

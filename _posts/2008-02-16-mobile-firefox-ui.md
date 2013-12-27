@@ -2,7 +2,7 @@
 title: Mobile Firefox UI
 author: Tomomi Imura
 layout: post
-permalink: /2008/02/16/mobile-firefox-ui/
+permalink: /blog/2008/02/16/mobile-firefox-ui/
 categories:
   - Design
   - UI/UX

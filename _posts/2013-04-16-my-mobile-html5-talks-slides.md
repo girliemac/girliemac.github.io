@@ -2,7 +2,7 @@
 title: My Mobile HTML5 Talks Slides
 author: Tomomi Imura
 layout: post
-permalink: /2013/04/16/my-mobile-html5-talks-slides/
+permalink: /blog/2013/04/16/my-mobile-html5-talks-slides/
 topsy_short_url:
   - http://is.gd/MgNznn
   - http://is.gd/MgNznn

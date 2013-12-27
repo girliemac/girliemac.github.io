@@ -2,7 +2,7 @@
 title: 'Happy National Cupcake Day! &#8211; Free Mac Icons'
 author: Tomomi Imura
 layout: post
-permalink: /2010/12/16/happy-national-cupcake-day/
+permalink: /blog/2010/12/16/happy-national-cupcake-day/
 topsy_short_url:
   - http://is.gd/i2r12J
   - http://is.gd/i2r12J

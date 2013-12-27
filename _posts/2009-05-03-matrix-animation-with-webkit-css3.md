@@ -2,7 +2,7 @@
 title: Matrix Animation with WebKit CSS3
 author: Tomomi Imura
 layout: post
-permalink: /2009/05/03/matrix-animation-with-webkit-css3/
+permalink: /blog/2009/05/03/matrix-animation-with-webkit-css3/
 dsq_thread_id:
   - 2067850883
 categories:

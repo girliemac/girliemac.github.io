@@ -2,7 +2,7 @@
 title: Classification of Mobile Browsers
 author: Tomomi Imura
 layout: post
-permalink: /2009/09/22/classification-of-mobile-browsers/
+permalink: /blog/2009/09/22/classification-of-mobile-browsers/
 categories:
   - Dev
   - Firefox

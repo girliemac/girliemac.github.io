@@ -2,7 +2,7 @@
 title: iPhone Case by Juicy Couture
 author: Tomomi Imura
 layout: post
-permalink: /2008/03/08/iphone-case-by-juicy-couture/
+permalink: /blog/2008/03/08/iphone-case-by-juicy-couture/
 categories:
   - GirlieStuff
   - iPhone

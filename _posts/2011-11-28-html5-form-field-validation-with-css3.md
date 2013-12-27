@@ -2,7 +2,7 @@
 title: HTML5 Form Field Validation with CSS3
 author: Tomomi Imura
 layout: post
-permalink: /2011/11/28/html5-form-field-validation-with-css3/
+permalink: /blog/2011/11/28/html5-form-field-validation-with-css3/
 topsy_short_url:
   - http://is.gd/OOiBZI
   - http://is.gd/OOiBZI

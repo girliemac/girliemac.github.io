@@ -2,7 +2,7 @@
 title: 'Touchy-Feely with DOM Events: Rethinking Cross-Device User Interaction'
 author: Tomomi Imura
 layout: post
-permalink: /2013/04/17/touchy-feely-with-dom-events-rethinking-cross-device-user-interaction/
+permalink: /blog/2013/04/17/touchy-feely-with-dom-events-rethinking-cross-device-user-interaction/
 topsy_short_url:
   - http://is.gd/DYZ1yy
   - http://is.gd/DYZ1yy

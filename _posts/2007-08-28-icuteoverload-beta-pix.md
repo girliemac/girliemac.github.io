@@ -2,7 +2,7 @@
 title: iCuteOverload Beta pix
 author: Tomomi Imura
 layout: post
-permalink: /2007/08/28/icuteoverload-beta-pix/
+permalink: /blog/2007/08/28/icuteoverload-beta-pix/
 categories:
   - Dev
   - GirliemacNews

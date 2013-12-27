@@ -2,7 +2,7 @@
 title: Android Uses WebKit
 author: Tomomi Imura
 layout: post
-permalink: /2007/11/16/android-uses-webkit/
+permalink: /blog/2007/11/16/android-uses-webkit/
 categories:
   - Dev
   - Google

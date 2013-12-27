@@ -2,7 +2,7 @@
 title: 'Boring Friday night activity &#8211; fixed UI glitch on iCO'
 author: Tomomi Imura
 layout: post
-permalink: /2008/03/08/boring-friday-night-activity-fixed-ui-glitch-on-ico/
+permalink: /blog/2008/03/08/boring-friday-night-activity-fixed-ui-glitch-on-ico/
 categories:
   - Dev
   - GirliemacNews

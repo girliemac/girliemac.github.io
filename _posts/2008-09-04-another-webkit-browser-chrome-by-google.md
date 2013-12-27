@@ -2,7 +2,7 @@
 title: 'Another WebKit browser &#8211; Chrome by Google'
 author: Tomomi Imura
 layout: post
-permalink: /2008/09/04/another-webkit-browser-chrome-by-google/
+permalink: /blog/2008/09/04/another-webkit-browser-chrome-by-google/
 categories:
   - CSS
   - Dev

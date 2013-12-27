@@ -2,7 +2,7 @@
 title: Google Docs Palm Pre Stencil
 author: Tomomi Imura
 layout: post
-permalink: /2010/07/07/google-docs-palm-pre-stencil/
+permalink: /blog/2010/07/07/google-docs-palm-pre-stencil/
 categories:
   - Design
   - Google

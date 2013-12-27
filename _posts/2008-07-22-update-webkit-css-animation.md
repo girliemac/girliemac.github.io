@@ -2,7 +2,7 @@
 title: 'Update: WebKit CSS Animation'
 author: Tomomi Imura
 layout: post
-permalink: /2008/07/22/update-webkit-css-animation/
+permalink: /blog/2008/07/22/update-webkit-css-animation/
 categories:
   - CSS
   - Dev

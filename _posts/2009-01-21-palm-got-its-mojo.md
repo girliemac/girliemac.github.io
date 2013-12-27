@@ -2,7 +2,7 @@
 title: Palm Got its Mojo
 author: Tomomi Imura
 layout: post
-permalink: /2009/01/21/palm-got-its-mojo/
+permalink: /blog/2009/01/21/palm-got-its-mojo/
 categories:
   - Dev
   - Palm

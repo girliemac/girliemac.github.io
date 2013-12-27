@@ -2,7 +2,7 @@
 title: 'iCuteOverload Update &#8211; Launch YouTube app'
 author: Tomomi Imura
 layout: post
-permalink: /2007/09/09/icuteoverload-update-launch-youtube-app/
+permalink: /blog/2007/09/09/icuteoverload-update-launch-youtube-app/
 categories:
   - Dev
   - GirlieStuff

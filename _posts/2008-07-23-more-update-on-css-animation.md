@@ -2,7 +2,7 @@
 title: More Update on CSS Animation
 author: Tomomi Imura
 layout: post
-permalink: /2008/07/23/more-update-on-css-animation/
+permalink: /blog/2008/07/23/more-update-on-css-animation/
 categories:
   - CSS
   - Dev

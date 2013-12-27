@@ -2,7 +2,7 @@
 title: 'CSS3 Aqua Button &#8211; Revisited for Firefox 3.6'
 author: Tomomi Imura
 layout: post
-permalink: /2010/01/28/css3-aqua-button-revisited-for-firefox-3-6/
+permalink: /blog/2010/01/28/css3-aqua-button-revisited-for-firefox-3-6/
 categories:
   - CSS
   - Dev

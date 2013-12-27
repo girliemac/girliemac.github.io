@@ -2,7 +2,7 @@
 title: Find Your Tweeting Neighbor on iPhone with GeoLocation
 author: Tomomi Imura
 layout: post
-permalink: /2009/06/21/find-your-tweeting-neighbor-on-iphone-with-geolocation/
+permalink: /blog/2009/06/21/find-your-tweeting-neighbor-on-iphone-with-geolocation/
 categories:
   - Dev
   - Firefox

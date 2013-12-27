@@ -2,7 +2,7 @@
 title: WebKit CSS Animation Examples
 author: Tomomi Imura
 layout: post
-permalink: /2008/07/19/webkit-css-animation-examples/
+permalink: /blog/2008/07/19/webkit-css-animation-examples/
 categories:
   - CSS
   - Dev

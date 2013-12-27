@@ -2,7 +2,7 @@
 title: iPhone SDK is Out
 author: Tomomi Imura
 layout: post
-permalink: /2008/02/27/iphone-sdk-is-out/
+permalink: /blog/2008/02/27/iphone-sdk-is-out/
 categories:
   - Dev
   - iPhone

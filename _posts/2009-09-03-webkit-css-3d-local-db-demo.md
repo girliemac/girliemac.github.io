@@ -2,7 +2,7 @@
 title: Webkit CSS 3D + Local DB Demo
 author: Tomomi Imura
 layout: post
-permalink: /2009/09/03/webkit-css-3d-local-db-demo/
+permalink: /blog/2009/09/03/webkit-css-3d-local-db-demo/
 dsq_thread_id:
   - 2067976836
 categories:

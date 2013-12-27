@@ -2,7 +2,7 @@
 title: Five CSS tricks used in Enyo JS Framework, and you can try them too!
 author: Tomomi Imura
 layout: post
-permalink: /2011/07/29/five-css-tricks-used-in-enyo/
+permalink: /blog/2011/07/29/five-css-tricks-used-in-enyo/
 topsy_short_url:
   - http://is.gd/0BiS8L
   - http://is.gd/0BiS8L

@@ -2,7 +2,7 @@
 title: Pink iPod Shuffle for Breast Cancer Awareness Month
 author: Tomomi Imura
 layout: post
-permalink: /2007/09/30/pink-ipod-shuffle-for-breast-cancer-awareness-month/
+permalink: /blog/2007/09/30/pink-ipod-shuffle-for-breast-cancer-awareness-month/
 dsq_thread_id:
   - 2067893219
 categories:

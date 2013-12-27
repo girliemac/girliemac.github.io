@@ -2,7 +2,7 @@
 title: Dev.mobi Event at Palo Alto
 author: Tomomi Imura
 layout: post
-permalink: /2008/05/31/devmobi-event-at-palo-alto/
+permalink: /blog/2008/05/31/devmobi-event-at-palo-alto/
 categories:
   - Dev
   - dotMobi

@@ -2,7 +2,7 @@
 title: Product (RED) for iPhone 2?
 author: Tomomi Imura
 layout: post
-permalink: /2008/06/07/product-red-for-iphone-2/
+permalink: /blog/2008/06/07/product-red-for-iphone-2/
 categories:
   - iPhone
 ---

@@ -2,7 +2,7 @@
 title: Thank you, Steve!
 author: Tomomi Imura
 layout: post
-permalink: /2011/10/06/thank-you-steve/
+permalink: /blog/2011/10/06/thank-you-steve/
 topsy_short_url:
   - http://is.gd/YyNYec
   - http://is.gd/YyNYec

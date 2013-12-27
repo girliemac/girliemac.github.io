@@ -2,7 +2,7 @@
 title: More Blah Blah on Legacy Clients
 author: Tomomi Imura
 layout: post
-permalink: /2013/09/30/legacy-clients/
+permalink: /blog/2013/09/30/legacy-clients/
 topsy_short_url:
   - http://is.gd/Eu9U3y
   - http://is.gd/Eu9U3y

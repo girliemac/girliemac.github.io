@@ -2,7 +2,7 @@
 title: Japanese IME on iPod Touch
 author: Tomomi Imura
 layout: post
-permalink: /2007/09/19/japanese-ime-on-ipod-touch/
+permalink: /blog/2007/09/19/japanese-ime-on-ipod-touch/
 categories:
   - iPod
 ---

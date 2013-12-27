@@ -2,7 +2,7 @@
 title: 'HTML5 File API &#038; XHR2 with Node.js Express'
 author: Tomomi Imura
 layout: post
-permalink: /2012/11/04/html5-file-api-xhr2-with-node-js-express/
+permalink: /blog/2012/11/04/html5-file-api-xhr2-with-node-js-express/
 topsy_short_url:
   - http://is.gd/vIAalt
 categories:

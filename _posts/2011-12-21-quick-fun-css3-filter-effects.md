@@ -2,7 +2,7 @@
 title: 'Quick Fun: CSS3 Filter Effects'
 author: Tomomi Imura
 layout: post
-permalink: /2011/12/21/quick-fun-css3-filter-effects/
+permalink: /blog/2011/12/21/quick-fun-css3-filter-effects/
 topsy_short_url:
   - http://is.gd/ww3fYB
   - http://is.gd/ww3fYB

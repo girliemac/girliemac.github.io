@@ -2,7 +2,7 @@
 title: 'gPhone Announcement Today &#8211; but I post yPhone'
 author: Tomomi Imura
 layout: post
-permalink: /2007/11/05/gphone-announcement-today-but-i-post-yphone/
+permalink: /blog/2007/11/05/gphone-announcement-today-but-i-post-yphone/
 categories:
   - GirlieStuff
   - Yahoo!

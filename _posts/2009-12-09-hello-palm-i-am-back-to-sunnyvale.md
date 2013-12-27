@@ -2,7 +2,7 @@
 title: Hello, Palm! I am back to Sunnyvale!
 author: Tomomi Imura
 layout: post
-permalink: /2009/12/09/hello-palm-i-am-back-to-sunnyvale/
+permalink: /blog/2009/12/09/hello-palm-i-am-back-to-sunnyvale/
 categories:
   - GirliemacNews
   - Palm

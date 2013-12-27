@@ -2,7 +2,7 @@
 title: How to Enable WP8 Emulator on Mac
 author: Tomomi Imura
 layout: post
-permalink: /2013/01/09/how-to-enable-wp8-emulator-on-mac/
+permalink: /blog/2013/01/09/how-to-enable-wp8-emulator-on-mac/
 topsy_short_url:
   - http://is.gd/jj85w1
   - http://is.gd/jj85w1

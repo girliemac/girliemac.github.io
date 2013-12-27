@@ -2,7 +2,7 @@
 title: OMG, Hello Kitty Mobile Phone Portable Charger!!!
 author: Tomomi Imura
 layout: post
-permalink: /2008/02/27/omg-hello-kitty-mobile-phone-portable-charger/
+permalink: /blog/2008/02/27/omg-hello-kitty-mobile-phone-portable-charger/
 categories:
   - GirlieStuff
   - Nokia

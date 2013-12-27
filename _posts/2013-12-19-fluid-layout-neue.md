@@ -2,7 +2,6 @@
 title: 'Fluid Layout Neue &#8211; Responsive Layout with CSS3 Awesomeness'
 author: Tomomi Imura
 layout: post
-permalink: /2013/12/19/fluid-layout-neue/
 topsy_short_url:
   - http://is.gd/1j2qSu
   - http://is.gd/1j2qSu

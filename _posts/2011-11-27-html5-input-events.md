@@ -2,7 +2,7 @@
 title: HTML5 Input Event Handlers and User-Experience
 author: Tomomi Imura
 layout: post
-permalink: /2011/11/27/html5-input-events/
+permalink: /blog/2011/11/27/html5-input-events/
 topsy_short_url:
   - http://is.gd/5MCIYH
   - http://is.gd/5MCIYH

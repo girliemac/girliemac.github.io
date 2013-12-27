@@ -2,7 +2,7 @@
 title: Usability Guidelines for Mobile Web
 author: Tomomi Imura
 layout: post
-permalink: /2007/10/08/usability-guidelines-for-mobile-web/
+permalink: /blog/2007/10/08/usability-guidelines-for-mobile-web/
 categories:
   - Design
   - UI/UX

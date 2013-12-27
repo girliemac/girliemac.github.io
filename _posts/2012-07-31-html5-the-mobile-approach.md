@@ -2,7 +2,7 @@
 title: 'HTML5: The Mobile Approach'
 author: Tomomi Imura
 layout: post
-permalink: /2012/07/31/html5-the-mobile-approach/
+permalink: /blog/2012/07/31/html5-the-mobile-approach/
 topsy_short_url:
   - http://is.gd/ab6z1D
   - http://is.gd/ab6z1D

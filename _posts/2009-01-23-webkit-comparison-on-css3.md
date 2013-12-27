@@ -2,7 +2,7 @@
 title: WebKit Comparison on CSS3
 author: Tomomi Imura
 layout: post
-permalink: /2009/01/23/webkit-comparison-on-css3/
+permalink: /blog/2009/01/23/webkit-comparison-on-css3/
 categories:
   - CSS
   - Dev

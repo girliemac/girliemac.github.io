@@ -2,7 +2,7 @@
 title: Creating Non-disruptive Notifications with HTML5
 author: Tomomi Imura
 layout: post
-permalink: /2012/03/29/creating-non-disruptive-notifications-with-html5/
+permalink: /blog/2012/03/29/creating-non-disruptive-notifications-with-html5/
 topsy_short_url:
   - http://is.gd/7wfyFL
   - http://is.gd/7wfyFL

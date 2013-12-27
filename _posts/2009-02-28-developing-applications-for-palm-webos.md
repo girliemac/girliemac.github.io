@@ -2,7 +2,7 @@
 title: Developing Applications for Palm webOS
 author: Tomomi Imura
 layout: post
-permalink: /2009/02/28/developing-applications-for-palm-webos/
+permalink: /blog/2009/02/28/developing-applications-for-palm-webos/
 categories:
   - Dev
   - Palm

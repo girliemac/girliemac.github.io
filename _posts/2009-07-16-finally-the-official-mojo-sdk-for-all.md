@@ -2,7 +2,7 @@
 title: Finally, the official Mojo SDK for all!
 author: Tomomi Imura
 layout: post
-permalink: /2009/07/16/finally-the-official-mojo-sdk-for-all/
+permalink: /blog/2009/07/16/finally-the-official-mojo-sdk-for-all/
 categories:
   - Dev
   - Palm

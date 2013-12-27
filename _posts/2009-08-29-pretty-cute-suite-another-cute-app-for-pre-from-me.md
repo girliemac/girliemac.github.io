@@ -2,7 +2,7 @@
 title: PREtty Cute Suite -Another Cute app for Pre from me!
 author: Tomomi Imura
 layout: post
-permalink: /2009/08/29/pretty-cute-suite-another-cute-app-for-pre-from-me/
+permalink: /blog/2009/08/29/pretty-cute-suite-another-cute-app-for-pre-from-me/
 categories:
   - App
   - GirliemacNews

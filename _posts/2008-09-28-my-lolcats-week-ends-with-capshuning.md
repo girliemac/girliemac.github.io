@@ -2,7 +2,7 @@
 title: My LOLCats Week Ends with Capshuning
 author: Tomomi Imura
 layout: post
-permalink: /2008/09/28/my-lolcats-week-ends-with-capshuning/
+permalink: /blog/2008/09/28/my-lolcats-week-ends-with-capshuning/
 categories:
   - Event
   - Yahoo!

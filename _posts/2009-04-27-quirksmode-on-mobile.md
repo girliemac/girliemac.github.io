@@ -2,7 +2,7 @@
 title: QuirksMode on Mobile!
 author: Tomomi Imura
 layout: post
-permalink: /2009/04/27/quirksmode-on-mobile/
+permalink: /blog/2009/04/27/quirksmode-on-mobile/
 categories:
   - Dev
   - Event

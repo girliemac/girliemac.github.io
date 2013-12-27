@@ -2,7 +2,7 @@
 title: Tokidoki for Yahoo!
 author: Tomomi Imura
 layout: post
-permalink: /2008/09/15/tokidoki-for-yahoo/
+permalink: /blog/2008/09/15/tokidoki-for-yahoo/
 categories:
   - GirlieStuff
   - Yahoo!

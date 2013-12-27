@@ -2,7 +2,7 @@
 title: Google announced API for LBS on Mobile
 author: Tomomi Imura
 layout: post
-permalink: /2008/08/26/google-announced-api-for-lbs-on-mobile/
+permalink: /blog/2008/08/26/google-announced-api-for-lbs-on-mobile/
 categories:
   - Dev
   - Google

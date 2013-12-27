@@ -2,7 +2,7 @@
 title: Mobile Firefox is Coming!
 author: Tomomi Imura
 layout: post
-permalink: /2007/10/11/mobile-firefox-is-coming/
+permalink: /blog/2007/10/11/mobile-firefox-is-coming/
 categories:
   - Firefox
 ---

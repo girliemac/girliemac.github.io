@@ -2,7 +2,7 @@
 title: HTML5 Form Validation のカスタマイズ
 author: Tomomi Imura
 layout: post
-permalink: /2012/12/01/html5-form-validation-jp/
+permalink: /blog/2012/12/01/html5-form-validation-jp/
 topsy_short_url:
   - http://is.gd/rjtuZT
   - http://is.gd/rjtuZT

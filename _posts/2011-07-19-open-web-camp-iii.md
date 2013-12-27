@@ -2,7 +2,7 @@
 title: Open Web Camp III
 author: Tomomi Imura
 layout: post
-permalink: /2011/07/19/open-web-camp-iii/
+permalink: /blog/2011/07/19/open-web-camp-iii/
 topsy_short_url:
   - http://is.gd/pQQxJS
   - http://is.gd/pQQxJS

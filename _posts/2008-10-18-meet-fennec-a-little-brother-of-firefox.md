@@ -2,7 +2,7 @@
 title: Meet Fennec, a little brother of Firefox
 author: Tomomi Imura
 layout: post
-permalink: /2008/10/18/meet-fennec-a-little-brother-of-firefox/
+permalink: /blog/2008/10/18/meet-fennec-a-little-brother-of-firefox/
 categories:
   - Dev
   - Firefox

@@ -2,7 +2,7 @@
 title: iCuteoverload on Apple.com Directory
 author: Tomomi Imura
 layout: post
-permalink: /2007/11/01/icuteoverload-on-applecom-directory/
+permalink: /blog/2007/11/01/icuteoverload-on-applecom-directory/
 categories:
   - App
   - GirlieStuff

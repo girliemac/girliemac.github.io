@@ -2,7 +2,7 @@
 title: Hug a developer
 author: Tomomi Imura
 layout: post
-permalink: /2008/08/29/hug-a-developer/
+permalink: /blog/2008/08/29/hug-a-developer/
 categories:
   - Dev
 ---

@@ -2,7 +2,7 @@
 title: oneConnect Announcement at CTIA (and 49ers)
 author: Tomomi Imura
 layout: post
-permalink: /2008/09/10/oneconnect-announcement-at-ctia/
+permalink: /blog/2008/09/10/oneconnect-announcement-at-ctia/
 categories:
   - Event
   - iPhone

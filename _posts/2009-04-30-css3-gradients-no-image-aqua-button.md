@@ -2,7 +2,7 @@
 title: 'CSS3 Gradients: No Image Aqua Button'
 author: Tomomi Imura
 layout: post
-permalink: /2009/04/30/css3-gradients-no-image-aqua-button/
+permalink: /blog/2009/04/30/css3-gradients-no-image-aqua-button/
 dsq_thread_id:
   - 2067751853
   - 2067751853

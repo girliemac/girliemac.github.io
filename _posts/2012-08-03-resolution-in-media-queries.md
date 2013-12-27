@@ -2,7 +2,7 @@
 title: Resolution in Media Queries
 author: Tomomi Imura
 layout: post
-permalink: /2012/08/03/resolution-in-media-queries/
+permalink: /blog/2012/08/03/resolution-in-media-queries/
 topsy_short_url:
   - http://is.gd/Eyr83g
   - http://is.gd/Eyr83g

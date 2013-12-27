@@ -2,7 +2,7 @@
 title: 'iPhone App &#8211; MuniApp for San Francisco Muni riders!'
 author: Tomomi Imura
 layout: post
-permalink: /2009/08/08/iphone-app-muniapp-for-san-francisco-muni-riders/
+permalink: /blog/2009/08/08/iphone-app-muniapp-for-san-francisco-muni-riders/
 categories:
   - App
   - GirliemacNews

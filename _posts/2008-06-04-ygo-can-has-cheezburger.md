@@ -2,7 +2,7 @@
 title: Y!Go Can Has Cheezburger?
 author: Tomomi Imura
 layout: post
-permalink: /2008/06/04/ygo-can-has-cheezburger/
+permalink: /blog/2008/06/04/ygo-can-has-cheezburger/
 categories:
   - Dev
   - iPhone

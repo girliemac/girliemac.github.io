@@ -2,7 +2,7 @@
 title: Live from CES in Vegas…. not!
 author: Tomomi Imura
 layout: post
-permalink: /2008/01/07/live-from-ces-in-vegas%e2%80%a6-not/
+permalink: /blog/2008/01/07/live-from-ces-in-vegas%e2%80%a6-not/
 categories:
   - Event
   - Yahoo!

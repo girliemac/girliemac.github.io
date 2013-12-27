@@ -2,7 +2,7 @@
 title: 'The Day I seized The InterWeb &#8211; HTTP Status Cats'
 author: Tomomi Imura
 layout: post
-permalink: /2011/12/18/the-day-i-seized-the-interweb-http-status-cats/
+permalink: /blog/2011/12/18/the-day-i-seized-the-interweb-http-status-cats/
 topsy_short_url:
   - http://is.gd/5KOr6K
   - http://is.gd/5KOr6K

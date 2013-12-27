@@ -2,7 +2,7 @@
 title: Couture Phone from Chiristian Dior
 author: Tomomi Imura
 layout: post
-permalink: /2008/05/25/couture-phone-from-chiristian-dior/
+permalink: /blog/2008/05/25/couture-phone-from-chiristian-dior/
 categories:
   - GirlieStuff
 ---

@@ -2,7 +2,7 @@
 title: Mobile Safari for iPhone 3 includes Geolocation
 author: Tomomi Imura
 layout: post
-permalink: /2009/06/01/mobile-safari-for-iphone-3-includes-geolocation/
+permalink: /blog/2009/06/01/mobile-safari-for-iphone-3-includes-geolocation/
 categories:
   - Firefox
   - iPhone

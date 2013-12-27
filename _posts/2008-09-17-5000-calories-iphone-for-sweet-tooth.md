@@ -2,7 +2,7 @@
 title: 5000 Calories iPhone for Sweet Tooth
 author: Tomomi Imura
 layout: post
-permalink: /2008/09/17/5000-calories-iphone-for-sweet-tooth/
+permalink: /blog/2008/09/17/5000-calories-iphone-for-sweet-tooth/
 categories:
   - GirlieStuff
   - iPhone

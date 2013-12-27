@@ -2,7 +2,7 @@
 title: Opera Lanches Widget SDK
 author: Tomomi Imura
 layout: post
-permalink: /2008/05/21/opera-lanches-widget-sdk/
+permalink: /blog/2008/05/21/opera-lanches-widget-sdk/
 categories:
   - Dev
   - Google

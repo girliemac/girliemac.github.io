@@ -2,7 +2,7 @@
 title: Because I Want Mobile Web to Be A Better Platform
 author: Tomomi Imura
 layout: post
-permalink: /2012/10/13/because-i-want-mobile-web-to-be-a-better-platform/
+permalink: /blog/2012/10/13/because-i-want-mobile-web-to-be-a-better-platform/
 topsy_short_url:
   - http://is.gd/CsyvKh
   - http://is.gd/CsyvKh

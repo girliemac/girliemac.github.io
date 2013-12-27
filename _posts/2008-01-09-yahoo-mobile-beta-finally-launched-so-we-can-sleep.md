@@ -2,7 +2,7 @@
 title: Yahoo! Mobile Beta finally launched so we can sleep.
 author: Tomomi Imura
 layout: post
-permalink: /2008/01/09/yahoo-mobile-beta-finally-launched-so-we-can-sleep/
+permalink: /blog/2008/01/09/yahoo-mobile-beta-finally-launched-so-we-can-sleep/
 categories:
   - Event
   - iPhone

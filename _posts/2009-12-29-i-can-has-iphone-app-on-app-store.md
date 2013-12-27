@@ -2,7 +2,7 @@
 title: I Can Has iPhone App on App Store
 author: Tomomi Imura
 layout: post
-permalink: /2009/12/29/i-can-has-iphone-app-on-app-store/
+permalink: /blog/2009/12/29/i-can-has-iphone-app-on-app-store/
 categories:
   - App
   - GirliemacNews

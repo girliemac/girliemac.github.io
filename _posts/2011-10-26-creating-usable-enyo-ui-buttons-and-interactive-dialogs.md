@@ -2,7 +2,7 @@
 title: 'Creating Usable Enyo UI &#8211; Buttons and Interactive Dialogs'
 author: Tomomi Imura
 layout: post
-permalink: /2011/10/26/creating-usable-enyo-ui-buttons-and-interactive-dialogs/
+permalink: /blog/2011/10/26/creating-usable-enyo-ui-buttons-and-interactive-dialogs/
 topsy_short_url:
   - http://is.gd/D5tie3
   - http://is.gd/D5tie3

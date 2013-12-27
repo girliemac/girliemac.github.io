@@ -2,7 +2,7 @@
 title: 'My First WebOS App &#8211; iCuteOverload for Palm v1.0'
 author: Tomomi Imura
 layout: post
-permalink: /2009/08/11/my-first-webos-app-icuteoverload-for-palm-v10/
+permalink: /blog/2009/08/11/my-first-webos-app-icuteoverload-for-palm-v10/
 categories:
   - App
   - Dev

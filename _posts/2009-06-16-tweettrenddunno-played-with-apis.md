@@ -2,7 +2,7 @@
 title: 'TweetTrendDunno &#8211; Played with APIs'
 author: Tomomi Imura
 layout: post
-permalink: /2009/06/16/tweettrenddunno-played-with-apis/
+permalink: /blog/2009/06/16/tweettrenddunno-played-with-apis/
 categories:
   - App
   - GirliemacNews

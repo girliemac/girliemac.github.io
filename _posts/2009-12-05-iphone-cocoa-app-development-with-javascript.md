@@ -2,7 +2,7 @@
 title: iPhone Cocoa App development with JavaScript
 author: Tomomi Imura
 layout: post
-permalink: /2009/12/05/iphone-cocoa-app-development-with-javascript/
+permalink: /blog/2009/12/05/iphone-cocoa-app-development-with-javascript/
 categories:
   - App
   - Dev

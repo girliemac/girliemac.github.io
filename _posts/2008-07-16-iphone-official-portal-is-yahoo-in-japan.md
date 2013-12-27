@@ -2,7 +2,7 @@
 title: 'iPhone Official Portal is Yahoo! &#8230; in Japan'
 author: Tomomi Imura
 layout: post
-permalink: /2008/07/16/iphone-official-portal-is-yahoo-in-japan/
+permalink: /blog/2008/07/16/iphone-official-portal-is-yahoo-in-japan/
 categories:
   - iPhone
   - Yahoo!

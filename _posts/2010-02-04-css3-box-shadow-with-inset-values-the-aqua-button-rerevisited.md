@@ -2,7 +2,7 @@
 title: 'CSS3 Box-Shadow with Inset Values &#8211; The Aqua Button ReReVisited!'
 author: Tomomi Imura
 layout: post
-permalink: /2010/02/04/css3-box-shadow-with-inset-values-the-aqua-button-rerevisited/
+permalink: /blog/2010/02/04/css3-box-shadow-with-inset-values-the-aqua-button-rerevisited/
 categories:
   - CSS
   - Dev

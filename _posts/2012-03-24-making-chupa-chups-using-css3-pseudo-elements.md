@@ -2,7 +2,7 @@
 title: Making Chupa-Chups using CSS3 Pseudo-elements
 author: Tomomi Imura
 layout: post
-permalink: /2012/03/24/making-chupa-chups-using-css3-pseudo-elements/
+permalink: /blog/2012/03/24/making-chupa-chups-using-css3-pseudo-elements/
 topsy_short_url:
   - http://is.gd/W2eAuB
   - http://is.gd/W2eAuB

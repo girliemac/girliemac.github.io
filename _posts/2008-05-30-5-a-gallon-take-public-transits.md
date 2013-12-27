@@ -2,7 +2,7 @@
 title: $5 a Gallon? Take Public Transits
 author: Tomomi Imura
 layout: post
-permalink: /2008/05/30/5-a-gallon-take-public-transits/
+permalink: /blog/2008/05/30/5-a-gallon-take-public-transits/
 categories:
   - Google
 ---

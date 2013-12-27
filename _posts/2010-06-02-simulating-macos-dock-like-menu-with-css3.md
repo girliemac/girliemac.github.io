@@ -2,7 +2,7 @@
 title: Simulating MacOS Dock-like menu with CSS3
 author: Tomomi Imura
 layout: post
-permalink: /2010/06/02/simulating-macos-dock-like-menu-with-css3/
+permalink: /blog/2010/06/02/simulating-macos-dock-like-menu-with-css3/
 categories:
   - CSS
   - Dev

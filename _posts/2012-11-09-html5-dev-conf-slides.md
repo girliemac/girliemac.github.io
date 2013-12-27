@@ -2,7 +2,7 @@
 title: HTML5 Dev Conf Slides
 author: Tomomi Imura
 layout: post
-permalink: /2012/11/09/html5-dev-conf-slides/
+permalink: /blog/2012/11/09/html5-dev-conf-slides/
 topsy_short_url:
   - http://is.gd/vwUvcI
   - http://is.gd/vwUvcI

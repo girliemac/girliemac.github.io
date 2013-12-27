@@ -2,7 +2,7 @@
 title: Sweet! Y!Go Web Made News in Japan too
 author: Tomomi Imura
 layout: post
-permalink: /2008/01/10/sweet-ygo-web-made-news-in-japan-too/
+permalink: /blog/2008/01/10/sweet-ygo-web-made-news-in-japan-too/
 categories:
   - Dev
   - iPhone

@@ -2,7 +2,7 @@
 title: 'Using Keyframes &#8211; WebKit CSS Animation Examples'
 author: Tomomi Imura
 layout: post
-permalink: /2009/02/18/using-keyframes-webkit-css-animation-examples/
+permalink: /blog/2009/02/18/using-keyframes-webkit-css-animation-examples/
 dsq_thread_id:
   - 2067799945
 categories:

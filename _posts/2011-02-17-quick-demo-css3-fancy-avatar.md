@@ -2,7 +2,7 @@
 title: 'Quick Demo: CSS3 Fancy Avatar'
 author: Tomomi Imura
 layout: post
-permalink: /2011/02/17/quick-demo-css3-fancy-avatar/
+permalink: /blog/2011/02/17/quick-demo-css3-fancy-avatar/
 topsy_short_url:
   - http://is.gd/vkqh04
   - http://is.gd/vkqh04
