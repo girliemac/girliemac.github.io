@@ -1,0 +1,45 @@
+name: GirlieMac Blog
+short-name: GirlieMac
+description: Arbitrary Web and Mobile Writing by Tomomi Imura
+url: 
+disqus_shortname: girliemac
+markdown: redcarpet
+pygments: true
+port: 4444
+
+# Author information
+owner:
+  name: Tomomi Imura
+  avatar: avatar.jpg
+  bio: "An Open Web advocate and front-end engineer, who loves everything mobile, and writes about HTML5, CSS, JS, UX, tech events, gadgets, etc. She unintentionally got 15min of fame by creating The HTTP Status Cats. Also, the opinions expressed here are solely her own and do not express the views or opinions of my employer."  
+  email: tomomi.i@gmail.com
+  twitter: girlie_mac
+  facebook:       
+  github: girliemac  
+  stackexchange:  
+  linkedin: tomomi
+  instagram:      
+  flickr: girliemac   
+  tumblr:         
+  google_plus:
+  flickr: girliemac
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about
+  - title: Archives
+    url: /articles
+  - title: Nostalgia
+    url: /nostalgia
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Los_Angeles
+future:      true

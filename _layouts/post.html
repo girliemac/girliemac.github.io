@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="article" itemscope itemtype="http://schema.org/WebPage">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<header role="banner">
+	<img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
+	<h1>{{ site.name }}</h1>
+	<h2>{{ site.description }}</h2>
+</header>
+
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  
+  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <div class="headline-wrap">
+      {% if page.date %}
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="icon-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
+      
+      {% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
+      <h1 itemprop="name">{{ page.title }}</h1>
+      <h2>{{ page.tagline }}</h2>
+    </div><!--/ .headline-wrap -->
+    
+    <div class="article-wrap" itemprop="text">
+      {{ content }}
+      <hr>
+      
+      <ul class="pagination">
+	      {% if page.previous %}
+	        <li class="prev"><a href="{{ page.previous.url }}" rel="prev">&larr; {{ page.previous.title }}</a></li>
+	      {% else %}
+		  	<li class="prev disabled"></li>
+	      {% endif %}
+	      {% if page.next %}
+	        <li class="next"><a href="{{ page.next.url }}" rel="next">{{ page.next.title }} &rarr;</a></li>
+	      {% else %}
+		  	<li class="next disabled"></li>
+	      {% endif %}
+	  </ul>
+	  
+      <hr />
+      
+      {% unless page.categories == empty %}
+	  <ul class="categories">
+	      <li><i class="icon-drawer"></i></li>
+	      {% assign categories_list = page.categories %}
+	      
+	      {% if categories_list.first[0] == null %}
+		    {% for category in categories_list %} 
+		    	<li data-size="{{ site.categories[category].size }}"><a href="/categories/#{{ category }}">
+		    		{{ category | join: "/" }}
+		    	</a></li>
+		    {% endfor %}
+		  {% else %}
+		    {% for category in categories_list %} 
+		    	<li data-size="{{ category[1].size }}"><a href="/categories/#{{ category[0] }}">
+		    		{{ category[0] | join: "/" }}
+		    	</a></li>
+		    {% endfor %}
+		  {% endif %}
+	      {% assign categories_list = nil %}
+	  
+	  </ul>
+	  {% endunless %} 
+    </div><!-- /.article-wrap -->
+  </article>
+</div><!-- /#main -->
+
+<footer> 
+  <small class="copyright">
+    {% include _footer.html %}
+  </small>
+</footer>
+
+{% include _scripts.html %}	        
+
+</body>
+</html>

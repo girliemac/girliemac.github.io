@@ -1,0 +1,61 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<body class="articles" itemscope itemtype="http://schema.org/WebPage">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+<header></header>
+
+<div class="article-author-side">
+  <img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
+  {% include _author-bio.html %}
+</div>
+
+<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+  <h1 itemprop="name">{{ page.title }}</h1>
+
+
+{% for category in site.categories %} 
+  <h2 id="{{ category[0] }}">#{{ category[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = category[1] %}  
+
+    {% for node in pages_list %}
+	    {% if node.title != null %}
+	      {% if group == null or group == node.group %}
+	      	{% if page.url == node.url %}
+	      	<li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+	      	{% else %}
+	      	<li><a href="{{node.url}}">{{node.title}}</a></li>
+	      	{% endif %}
+	      {% endif %}
+	    {% endif %}
+    {% endfor %}
+
+{% assign pages_list = nil %}
+{% assign group = nil %}
+  </ul>
+{% endfor %}
+
+
+</div><!-- /#index -->
+
+<footer>
+  <small>
+    {% include _footer.html %}
+  </small>
+</footer>
+
+{% include _scripts.html %}
+  
+</body>
+</html>
