@@ -659,7 +659,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  font-family: 'Lucida Console', Monaco, Consolas, monospace;
 }
 
 p code,
@@ -1273,10 +1273,6 @@ body {
 
 /* girliemac custom */
 
-article p {
-  line-height: 1.7em;
-}
-
 header {
   position: relative;
   padding: 3.5em 1em 1.5em;
@@ -1373,6 +1369,11 @@ header:after {
 #main article h4 {
   line-height: normal;
   color: #e32c5d;
+}
+
+#main article p,
+#main article li {
+  line-height: 1.7em;
 }
 
 #main article time {

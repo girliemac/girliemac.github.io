@@ -42,15 +42,6 @@ module.exports = function(grunt) {
         '!assets/js/scripts.min.js'
       ]
     },
-    cssmin: {
-	  minify: {
-	    expand: true,
-	    cwd: 'assets/css/',
-	    src: ['*.css', '!*.min.css'],
-	    dest: 'assets/css/',
-	    ext: '.min.css'
-	  }
-	},
     uglify: {
       dist: {
         files: {
