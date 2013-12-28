@@ -26,8 +26,8 @@ owner:
   flickr: girliemac
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics: UA-2635445-1
+google_verify: I-NDFBl5t1P9fqHmRNZhwu8OOHmwW4HADPiOr_r16cE   
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
