@@ -38,6 +38,11 @@ links:
     url: /about
   - title: Archive
     url: /articles
+  - title: Preso
+    url: /presentations
+  - title: My CodePen
+    url: http://codepen.io/girliemac
+    external: true
   - title: Nostalgia
     url: /nostalgia
 
