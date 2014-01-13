@@ -16,7 +16,7 @@ categories:
 
 Happy new year!
 
-I wonder how it will be in terms of the web standards and HTML5, as the first biggest news of 2014 from W3C was the MPAA joining the W3C as a member and the controversy on DRM has heated up again.
+I wonder how the year 2014 will be in terms of the web standards and HTML5, as the first biggest news of the year from W3C was the MPAA joining the W3C as a member and the controversy on DRM has heated up again.
 
 My first blog of the year is not going to be about DRM, but I write a topic on responsive design with ambient light level, which I cover a little bit at SF HTML5 meetup last November, where I received some oohs and aahs so I want to write about it more here.
 
@@ -45,7 +45,7 @@ Its property, `value` returns the level of the light in *lux* unit.
 
 ```javascript
 window.addEventListener('devicelight', function(event) {
-  console.log(event.value);
+  console.log(event.value + 'lux');
 });
 ```
 
