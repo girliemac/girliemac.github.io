@@ -76,6 +76,9 @@ module.exports = function(grunt) {
         }]
       }
     },
+    jekyll: {
+		build: {}
+	},
     watch: {
       less: {
         files: [
@@ -89,14 +92,26 @@ module.exports = function(grunt) {
           '<%= jshint.all %>'
         ],
         tasks: ['jshint','uglify']
-      }
+      },
+      jekyll: {
+		files: [
+			'**',
+			'!_site/**',
+			'!node_modules/**',
+			'!.sass-cache/**',
+			'!Gruntfile.js',
+			'!package.json',
+			'!.git/**'
+			],
+		tasks: 'jekyll'
+		}
     },
     clean: {
       dist: [
         'assets/css/main.min.css',
         'assets/js/scripts.min.js'
       ]
-    }
+    },
   });
 
   // Load tasks
@@ -106,17 +121,15 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-shell-spawn');
   grunt.loadNpmTasks('grunt-recess');
+  grunt.loadNpmTasks('grunt-jekyll');
 
   // Register tasks
   grunt.registerTask('default', [
-    'shell:jekyll',
     'clean',
     'recess',
     'uglify',
-    'imagemin',
-    'svgmin'
+    'jekyll'
   ]);
   grunt.registerTask('dev', [
     'watch'
