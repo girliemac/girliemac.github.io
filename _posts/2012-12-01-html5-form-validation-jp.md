@@ -20,7 +20,7 @@ categories:
   - UI/UX
   - WebKit
 ---
-*Note: This article is written in Japanese for <a href="http://www.adventar.org/calendars/27" target="_blank">HTML5 Advent Calendar 2012</a>. If you&#8217;d like to read this article in English, you can read the original post I wrote on November 21 for <a href="http://www.developer.nokia.com/Blogs/Code/2012/11/21/creating-a-custom-html5-form-validation/" target="_blank">Nokia Code Blog</a>.  
+*Note: This article is written in Japanese for <a href="http://www.adventar.org/calendars/27" target="_blank">HTML5 Advent Calendar 2012</a>. If you&#8217;d like to read this article in English, you can read the original post I wrote on [November 21]({% post_url 2012-11-21-html5-form-validation %}). (The article was originally written for: <a href="http://www.developer.nokia.com/Blogs/Code/2012/11/21/creating-a-custom-html5-form-validation/" target="_blank">Nokia Code Blog</a>). 
 Thank you.*
 
 * * *
@@ -43,12 +43,12 @@ Thank you.*
 単純な<a title="JS Fiddle" href="http://jsfiddle.net/girlie_mac/X6Uuc/" target="_blank">デモ</a>を書いたので試してみてください。仕様がサポートされているブラウザ上でフィールドを空のまま送信するとエラーメッセージが表示、もしくはエラーを示す UI が現れます。  
 下のスクリーンショットは、左がデスクトップ IE10 （英語版）のデフォルト、右が IE10 モバイルの UI です。  
 
-<img style="vertical-align: top" src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-basic-ie10.png" alt="Basic form validation (IE10)" width="255" height="125" /> <img style="vertical-align: top;margin: 9px 0 0 20px" src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-basic-ie10m.png" alt="Basic form validation (IE10 Mobile)" width="250" height="68" />  
+<img style="vertical-align: top" src="/assets/images/articles/2012/12/screenshot-basic-ie10.png" alt="Basic form validation (IE10)" width="255" height="125" /> <img style="vertical-align: top;margin: 9px 0 0 20px" src="/assets/images/articles/2012/12/screenshot-basic-ie10m.png" alt="Basic form validation (IE10 Mobile)" width="250" height="68" />  
 
 IE10 モバイル版では、エラーメッセージの吹き出しが表示されず、空フィールドの枠が赤く表示されただけの仕様になっているのですが、そのフィールドが focus された状態でバーチャルキーボードが現れるので、ユーザビリティは損なわれていないようです。
 
 このメッセージや吹き出しの UI は、ブラウザや環境言語によって異なります。下の画像は日本語版の Chrome から。  
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-basic-chrome-jp.png" alt="Basic form validation (Chrome JP)" width="301" height="96" />
+<img src="/assets/images/articles/2012/12/screenshot-basic-chrome-jp.png" alt="Basic form validation (Chrome JP)" width="301" height="96" />
 
 それでは、これから 1) パターンマッチング、2) CSS3 でのビジュアル効果、3) カスタムのエラーメッセージ設定、を使ってフルカスタマイズしてみましょう。
 
@@ -84,7 +84,7 @@ CSS ではいくつかの、UI 要素状態を表す UI セレクタ（疑似ク
 ## ウェブフォントアイコンを使う
 
 この上さらに、チェックマークのついたアイコンを表示させてみましょう。せっかくですので画像アイコンを使わず CSS3 をフル活用してウェブフォントを使った応用をやってみましょう。  
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-valid-fonticon.png" alt="using webfont icon" width="269" height="73" />
+<img src="/assets/images/articles/2012/12/screenshot-valid-fonticon.png" alt="using webfont icon" width="269" height="73" />
 
 ここでまた必須課目です！ここではちょっと変わった活用をしてみたいので、CSS3 ウェブフォントについてよくわからないという方は必ず先におさらいしておいてください。
 
@@ -130,7 +130,7 @@ CSS ではいくつかの、UI 要素状態を表す UI セレクタ（疑似ク
 エラーメッセージの表示をカスタマイズするには大まかに２つの方法があります。
 
 では簡単な方法から。これは `title` 属性を使ったインラインテキストを表示させる方法で、ここで指定されたテキストはデフォルトのエラーメッセージに下に表示されます。したの画像は Opera 12 です。  
-<img class="alignnone size-full wp-image-329" src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-custom-opera12.png" alt="" width="500" height="150" />
+<img class="alignnone size-full wp-image-329" src="/assets/images/articles/2012/12/screenshot-custom-opera12.png" alt="" width="500" height="150" />
 
 ```html
 <input id="username" type="text" pattern="[a-zA-Z0-9_-]{6,12}" autofocus required 
@@ -154,7 +154,7 @@ input.addEventListener('invalid', function(e) {
 ```
 
 下の画像が Firefox 16 での結果です。  
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-custom-ff16.png" alt="" width="250" height="121" />
+<img src="/assets/images/articles/2012/12/screenshot-custom-ff16.png" alt="" width="250" height="121" />
 
 `validity` プロパティは、 `value`、 `valueMissing`、 `typeMismatch` など、要素のバリデーション状態を boolean で示すプロパティを含む `ValidityState` オブジェクトを返します。（`ValidityState` についてもっと詳しく学びたい方のためにブログの最後にリンクを貼っておきます。）
 
@@ -165,14 +165,14 @@ JavaScript と `title` 属性を両方使うことも可能です。これも自
 
 さてここで<a href="https://dl.dropbox.com/u/1330446/validation.html" target="_blank">フルまとめデモ</a>を見てみましょう。Windows Phone 8 メトロ UI をちょっとまねたスタイルにしてみました。なのでモバイルからもぜひためしてみてね。
 
-[<img src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/form-val-demo-qr.png" alt="Demo URL QR" width="128" height="127" align="right" />][2]  
+[<img src="/assets/images/articles/2012/12/form-val-demo-qr.png" alt="Demo URL QR" width="128" height="127" align="right" />][2]  
 **http://goo.gl/xKj0X**
 
 実は私が試してみたところ IE 10 にはちょっとした gotcha があるのです。まあ、IE なので落とし穴があって当たり前か、とも思うのですが。このデモの場合、どうもフィールドが unfocus するまでチェックマークアイコンが表示されないようなのです。テストした他のブラウザでは入力値が有効になり次第（このデモの場合、文字数が６文字になり次第）アイコンがちゃんと表示されます。
 
 で、下の画像は Windows Phone 8 上の IE10 Mobile の実際のスクリーンショットです。
 
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2012/11/screenshot-ie10m.png" alt="screenshot of IE10 mobile" width="600" height="410" />
+<img src="/assets/images/articles/2012/12/screenshot-ie10m.png" alt="screenshot of IE10 mobile" width="600" height="410" />
 
 ちょっと端折った箇所もあるのでわかりにくい所もあったかもしれませんが、これからのフォーム UX の参考になっていただけえたらうれしいです。あ、あと最後に。フォールバックについて書きませんでしたが、バリデーションがすべてのブラウザに実装されているわけではないので実際は送信されたデータはサーバサイドでもしっかり管理することが大切です。当然といえば当然なのですが念のため。
 
