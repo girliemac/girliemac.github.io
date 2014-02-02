@@ -28,9 +28,7 @@ So what does it mean to you as a web developer? It means you need to detect the 
 
 In this article, I will explain the state of touch APIs in terms of current web standards, and show you some sample code to demonstrate.
 
-<p align="center">
-  <img src="http://www.developer.nokia.com/Blogs/Code/files/2013/04/touch-lumia920.jpg" alt="Demo on Lumia" width="500" height="375" /></a>
-</p>
+![demo on Lumia](/assets/images/articles/2013/04/touch-lumia920.jpg "Touch demo on Lumia 920")
 
 ## Touch Events V.1
 
@@ -40,7 +38,7 @@ W3C defined the <a href="http://www.w3.org/TR/touch-events/" target="_blank">tou
 
 The event types include: `touchstart`, `touchend`, `touchmove`, `touchenter`, `touchleave` and `touchcancel`.
 
-<img class="aligncenter size-full wp-image-873" alt="touchevents" src="http://www.developer.nokia.com/Blogs/Code/files/2013/03/touchevents.png" width="500" height="200" />
+![Touch events](/assets/images/articles/2013/04/touchevents.png "Touch events")
 
 ### Example
 
@@ -84,7 +82,8 @@ The completed demo is at the end of this article.
 
 Now you probably wish there was a single set of events to handle both the iOS touch event model and the standard mouse events. Well, it turns out there really *is* a such thing.
 
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2013/04/pointer.png" alt="pointer" width="264" height="272" align="right" />
+<img src="/assets/images/articles/2013/04/pointer.png" alt="pointer" width="264" height="272" align="right" />
+
 
 Microsoft has been working on something called MSPointers to support multi user-inputs, and they <a href="http://www.w3.org/TR/pointerevents" target="_blank">submitted</a> it to the W3C for standardization last year. Now it has reached the Last Call. This new and alternative standard event model is called Pointer Events, and it is designed to handle hardware-agnostic pointer input from devices like a mouse, pen, or touchscreen.
 
@@ -127,9 +126,9 @@ I have a <a href="https://dl.dropbox.com/u/1330446/demo/all-events.html" target=
 
 Try this on any modern browser, and it should work! The entire code is <a href="https://gist.github.com/girliemac/5279460" target="_blank">in this gist</a> for you to take a look at.
 
-<img alt="wp_ss_20130330_0001" src="http://www.developer.nokia.com/Blogs/Code/files/2013/03/wp_ss_20130330_0001.png" width="320" style="float:left" />
+<img alt="Screnshot" src="/assets/images/articles/2013/04/wp_ss_20130330_0001.png" width="320" style="float:left" />
 
-<img src="http://www.developer.nokia.com/Blogs/Code/files/2013/04/qr-pointer-demo.png" alt="qr-pointer-demo" width="129" height="127" />
+<img src="/assets/images/articles/2013/04/qr-pointer-demo.png" alt="QR code" width="129" height="127" />
 
 <br style="clear:both" />
 ---
