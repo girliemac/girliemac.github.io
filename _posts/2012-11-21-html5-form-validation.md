@@ -16,7 +16,7 @@ categories:
   - WebKit
 ---
 
-*Note: The article was originally written for [Nokia Code Blog](http://www.developer.nokia.com/Blogs/Code/2012/11/21/creating-a-custom-html5-form-validation/), with helps from Fred Patton (editor) and Andrea Trasatti (technical reviewer).*
+*Note: The article was originally written for [Nokia Code Blog](http://www.developer.nokia.com/Blogs/Code/2012/11/21/creating-a-custom-html5-form-validation/), with helps from Fred Patton (editor) and Andrea Trasatti (proofreading).*
 
 ---
 
