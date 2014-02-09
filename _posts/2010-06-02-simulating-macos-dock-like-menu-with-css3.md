@@ -19,7 +19,7 @@ So I was thinking about making one only with CSS.
 Initially I thought it was easy &#8211; let&#8217;s make an hovered icon larger like 200%, and make siblings in 150% of the original size using CSS sibling selector, and done! A piece of cake, huh? &#8211; Then I realized I made a mistake. The adjacent-sibling selector apply to an element which is immediately *after* the element in markup, not both before and after.  
 Oh well, so I needed to write a minimal JavaScript (so you don&#8217;t need to import a whole JS library) to add a class name to the element comes before the hovered object.
 
-Anyway, here&#8217;s the <a href="http://girliemac.com/sandbox/dock.html" target="_blank">live-demo!</a> (Try it with the the latest Webkit Nightly or Safari 4) for the best experience!), and I&#8217;ll show you how I did- 
+Anyway, here&#8217;s the <a href="https://dl.dropboxusercontent.com/u/1330446/demo/dock/dock.html" target="_blank">live-demo!</a> (Try it with the the latest Webkit Nightly or Safari 4) for the best experience!), and I&#8217;ll show you how I did- 
 
 ### Markup (Simplified)
 
@@ -103,6 +103,6 @@ if (window.addEventListener) {
 }
 ```
 
-For more details with the fancy CSS3 effects (e.g. the gradient and 3D-transform to create the &#8220;base&#8221; of the dock), please see the source code of the <a href="http://girliemac.com/sandbox/dock.html" target="_blank">demo page!</a>
+For more details with the fancy CSS3 effects (e.g. the gradient and 3D-transform to create the &#8220;base&#8221; of the dock), please see the source code of the <a href="https://dl.dropboxusercontent.com/u/1330446/demo/dock/dock.html" target="_blank">demo page!</a>
 
  [1]: /assets/images/wp-content/misc/dock-screenshot.jpg

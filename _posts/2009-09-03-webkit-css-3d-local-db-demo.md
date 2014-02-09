@@ -20,7 +20,7 @@ So after installing Snow Leopard, I spent about a day and half to try creating m
 Honestly, I wasn't sure where to get started to make some cool 3D effect, so what I did was I tried to reproduce the one on webkit.org example and modify a lot by trial and error approach.  
 Also, I have been freqently asked about how I did with &#8220;My Favorites&#8221; feature on [my Palm Pre app][2] (which is also a WebKit-based), so I throw the HTML5&#8242;s local storage demo with this 3D demo. 
 
-So here, you can try my <a href="http://girliemac.com/sandbox/flickr_3d.html" target="_blank">CSS 3D and Local DB Demo</a>!!!  
+So here, you can try my <a href="http://girliemac.github.io/flickr-css3-3d-demo/" target="_blank">CSS 3D and Local DB Demo</a>!!!  
 Be sure to view this demo on Safari 4, iPhone Safari, or WebKit Nightly! This doesn;t seem to work on other Webkit-based browsers such as Chrome and Palm. 
 
 I am not going to write a whole tutorial how to replicate this animation but I try to explain some examples.
