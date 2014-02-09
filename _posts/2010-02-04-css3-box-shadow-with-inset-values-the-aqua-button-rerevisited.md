@@ -94,7 +94,7 @@ input[type=button].new-aqua {
   
 
 
-View the <a href="http://girliemac.com/sandbox/button.html" target="_blank">live demo page</a>! This new aqua button works on FF 3.6, Webkit 4 (the current Safari 4 doesn&#8217;t support inset box-shadow yet), Chrome 4 and Opera 10. (But fails on 10.1 on Mac).
+View the <a href="https://dl.dropboxusercontent.com/u/1330446/demo/button.html" target="_blank">live demo page</a>! This new aqua button works on FF 3.6, Webkit 4 (the current Safari 4 doesn&#8217;t support inset box-shadow yet), Chrome 4 and Opera 10. (But fails on 10.1 on Mac).
 
 <p style="color:#777">
   <em>* Edited on Feb.5 &#8211; Opera 10.1 fail and Safari4 (I noticed this works only on Webkit Nightly after published this!)</em>
