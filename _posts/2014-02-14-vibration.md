@@ -32,7 +32,7 @@ Ah, finally there is a good use case scenario!
 
 So I quickly put things up together to see how it works in a real life scenario. I used my old HTML5 form validation demo I wrote for Nokia Code Blog (Bummer, it has been deleted while cleaning up the Nokia assets for Microsoft's partial aquisition. But I have the copy on [my blog][5] in 2012!)
 
-Here is the demo in action. Turn the volume up so you can hear my phone buzzes:
+Here is the demo in action. **Turn the volume all way up** so you can hear my phone buzzes:
 
 <iframe src="//player.vimeo.com/video/86735842" width="500" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
