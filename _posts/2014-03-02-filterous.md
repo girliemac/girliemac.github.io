@@ -10,6 +10,7 @@ categories:
   - firefox
 ---
 
+![Filtrous](/assets/images/articles/2014/03/filtrous.jpg "Filtrous")
 
 [Filtrous.js][filtrous] is a photo manipulation library in JavaScript that applies filters to photos à la Instagram on browser. 
 
@@ -62,6 +63,8 @@ var f = new Filterous(myPhoto, 'jpeg'); // output: jpeg, png, webp. default is c
 
 ```
 
+The image on top of this blog shows examples of combination of "beightness" and "rgbAdjust" filters (center), and grayscale (right).
+
 Apply filters - "Beightness" and "rgbAdjust" for example:
  
 ```javascript
@@ -70,9 +73,7 @@ f.filterImage('brightness', 10);
 f.render();
 ```
 
-The diagram below is the example of applying a combination of "beightness" and "rgbAdjust" filters (center), and grayscale (right).
 
-![Filtrous](/assets/images/articles/2014/03/filtrous.jpg "Filtrous")
 
 There is an extra JS file you can import so you can use named preset effects such as "nostalgia" (slightly sepea tone), "rockstar" (with starry overlay) you can use too. 
 
