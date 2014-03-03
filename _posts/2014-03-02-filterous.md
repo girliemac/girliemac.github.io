@@ -65,7 +65,7 @@ var f = new Filterous(myPhoto, 'jpeg'); // output: jpeg, png, webp. default is c
 
 The image on top of this blog shows examples of combination of "beightness" and "rgbAdjust" filters (center), and grayscale (right).
 
-Apply filters - "Beightness" and "rgbAdjust" for example:
+The effect in the middle can be achieved by applying two filters:
  
 ```javascript
 f.filterImage('rgbAdjust', [1, 1.2, 1.4]);
@@ -74,11 +74,21 @@ f.render();
 ```
 
 
-
-There is an extra JS file you can import so you can use named preset effects such as "nostalgia" (slightly sepea tone), "rockstar" (with starry overlay) you can use too. 
+Also, I have made an extra JS file that you can import, so you can use the named preset effects such as "nostalgia" (slightly sepea tone) and "rockstar" (with starry overlay) that you see in the demo.
 
 If you would like to use *Filtrous*, see my [github][filtrous] page for more info :-)
 
+
+## Why not CSS3?
+
+Multiple people have asked me why I used `canvas` while the CSS3 Filter effects has been adopted by WebKit and Blink browsers.
+I love the ease of using the CSS3 filters and wrote a [blog]({% post_url 2011-12-21-quick-fun-css3-filter-effects%}) about it too. However, unlike the pixel manipulation in canvas, the CSS filter is just a visual representation and it does not actually alter the physical property of the photos. When you download the filtered photo, you still get the unfiltered original image.
+
+## Links
+
+- [Filterous.js on Github][filtrous]
+- [Filterous.js Demo][demo]
+- [CoreMob Camera][camera]
 
 
 [github]: https://github.com/girliemac/
