@@ -31,7 +31,8 @@ I have worked on thousands of mobile browsers in past (especially, when I was wo
 
 Also, the server-side manipulation was necessary for the headache-inducing error <a href="http://www.flickr.com/photos/girliemac/6508023747/" target="_blank">413</a> (*&#8220;Request entity too large&#8221;*) problem. Believe or not, for example on Yahoo! News, many browsers were not even capable to display one news story because the content size was too large. To avoid this unpleasant experience to the users, the contents needed to be trimmed in server.
 
-<img src="http://girliemac.com/tomomi_imura/images/projects/yahoo_beta_xhtml.png" width="100%" />  
+![legacy](/assets/images/wp-content/uploads/2013/09/yahoo_beta_xhtml.png "Yahoo!")
+ 
 <small>Screenshots of m.yahoo.com that I worked on. Awwww, nostalgia.</small>
 
 ### Crappy New Browsers Hidden within Native Apps
