@@ -23,5 +23,5 @@ Also, <a href="http://mobile.yahoo.com/developers" target="_blank">Blueprint</a>
 
 ![blueprint.png][2]
 
- [1]: /tomomi_imura/images/projects/yahoo_beta_xhtml.png
+ [1]: /assets/images/wp-content/misc/yahoo_beta_xhtml.png
  [2]: /assets/images/wp-content/misc/blueprint.png

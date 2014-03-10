@@ -8,10 +8,10 @@ categories:
   - GirliemacNews
   - iPhone
 ---
-<img src="http://girliemac.com/cute/images/iCO_webclip.png" style="padding-right: 0.5em" align="left" />I’ve been sick and still recovering from.  
+<img src="/assets/images/wp-content/misc/iCO_webclip.png" style="padding-right: 0.5em" align="left" />I’ve been sick and still recovering from.  
 Anyway, my iPhone WebApp, **iCuteOverload** became look uglier after a few firmware updates ago and I had ignored since, but I finally fixed today.
 
-It looks like `<a href="http://www.w3.org/TR/css3-ui/#box-sizing">box-sizing</a>: border-box` stopped woking on the recent WebKit, so I needed to use WebKit’s own declarations by adding &#8220;`-webkit-`&#8221; prefex, to adjust the box-model. It was easy fix but didn’t figure out soon enough :-p (maybe because I was watching House M.D. while debugging). Then I looked at the latest [iUi][1] code and well, the fix was already there… I should have just downloaded from beginning.
+It looks like <a href="http://www.w3.org/TR/css3-ui/#box-sizing">`box-sizing: border-box`</a> stopped woking on the recent WebKit, so I needed to use WebKit’s own declarations by adding `-webkit-` prefex, to adjust the box-model. It was easy fix but didn’t figure out soon enough :-p (maybe because I was watching House M.D. while debugging). Then I looked at the latest [iUi][1] code and well, the fix was already there… I should have just downloaded from beginning.
 
 Oh well.
 

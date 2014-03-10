@@ -25,4 +25,4 @@ or
   
 2) Add `<link rel="apple-touch-icon" href="/customIcon.png"/>` within the `<head>` element of the page.
 
-Once added to the springboard screen, round-corners and glassy overlay will be added to your icon nicely <img src='http://girliemac.com/blog/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
+Once added to the springboard screen, round-corners and glassy overlay will be added to your icon nicely :-)
