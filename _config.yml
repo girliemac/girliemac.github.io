@@ -2,6 +2,7 @@ name: GirlieMac Blog
 short-name: GirlieMac.com
 description: Arbitrary Web and Mobile Writing by Tomomi Imura
 url: 
+domain: http://girliemac.com
 permalink: /blog/:year/:month/:day/:title/
 disqus_shortname: girliemac
 markdown: redcarpet
