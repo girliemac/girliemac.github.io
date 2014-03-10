@@ -16,7 +16,9 @@ categories:
 ---
 <img src="/assets/images/wp-content/uploads/2012/03/notifications.png" alt="web notifications" title="notifications" class="aligncenter" />
 
-*Note: The API I used for this article seems to be outdated, and the ecample code may not work on the latest browser. Thanks!*
+<p style="color:red">Update: The API I used for this article has been <strong>deprecated</strong> by W3C, and the example code no longer works on the latest browser. I have updated the code with using the new specification so please take a look at <a href="https://github.com/girliemac/html5-notifications-webOS-style">my github repo</a>.
+<br><br>
+Thanks!</p>
 
 ---
 
