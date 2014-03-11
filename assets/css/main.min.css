@@ -643,17 +643,6 @@ blockquote {
   font-size: 0.875rem;
 }
 
-/*
-p {
-	margin: 0 0 @indent-var;
-	& + p {
-		//siblings indentation
-		text-indent: @indent-var;
-		margin-top: -(@indent-var);
-	}
-}
-*/
-
 tt,
 code,
 kbd,
