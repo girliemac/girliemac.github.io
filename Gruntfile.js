@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           compile: true,
-          compress: false
+          compress: true
         },
         files: {
           'assets/css/main.min.css': [
@@ -20,17 +20,7 @@ module.exports = function(grunt) {
           ]
         }
       }
-    },
-
-	shell: {
-     	jekyll: {
-        	command: 'jekyll build',
-			options: {
-				async: false
-			}
-		}
-    },
-	    
+    }, 
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -38,15 +28,17 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'assets/js/*.js',
-        '!assets/js/plugins/*.js',
         '!assets/js/scripts.min.js'
       ]
     },
     uglify: {
       dist: {
+      	options: {
+			banner: '/* Modified: <%= grunt.template.today("mmmm d, yyyy, hh:MM:ss") %> */\n'
+		},
         files: {
           'assets/js/scripts.min.js': [
-            'assets/js/plugins/*.js',
+            'assets/js/vendor/konami-js/konami.js',
             'assets/js/_*.js'
           ]
         }

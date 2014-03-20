@@ -1,0 +1,24 @@
+{
+  "name": "girliemac.github.io",
+  "version": "0.0.1",
+  "authors": [
+    "Tomomi Imura <tomomi.i@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/js/bower_components",
+    "assets/js/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  	"modernizr": "~2.7.2",
+    "konami-js": "*"
+  },
+  "homepage": "http://girliemac.com",
+  "description": "girliemac.com web",
+  "license": "MIT"
+}
