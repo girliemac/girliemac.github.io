@@ -8,5 +8,3 @@ var k = new Konami(function(){
 	document.body.appendChild(cat);
 });
 
-
-})();
