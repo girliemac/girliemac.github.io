@@ -11,9 +11,16 @@ I have most of my presentation slides hosted here on Github, also, PDF-converted
 
 A lot of people have asked me what framework I use for my slides. The answer is that I use [Shower][shower] HTML Presentation Engine. It comes with print CSS so you can convert the HTML slides into PDF easily too. I totally recommend if you would like to create your interactive slides in HTML too.
 
+You can view my past and upcoming appearances on [Lanyrd][lan] (conference only, meetups are not included).
 
 ---
 
+## State of Mobile HTML5: Half full or half empty?
+
+* [HTML slides on Github][6]
+* [Static slides on SperakerDeck][6a]
+
+<script async class="speakerdeck-embed" data-id="d27b12d0b6d20131d6591a515edcce73" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## IndexedDB: storing data locally on browsers with HTML5
 
@@ -43,6 +50,8 @@ A lot of people have asked me what framework I use for my slides. The answer is 
 * [Static slides on SperakerDeck][1a]
 
 
+[6]: http://girliemac.github.io/presentation-slides/html5-mobile-2014/index.html
+[6a]: https://speakerdeck.com/girlie_mac/the-state-of-mobile-html5-2013-2014
 [5]: http://girliemac.github.io/presentation-slides/html5-indexedDB/index.html
 [5a]: https://speakerdeck.com/girlie_mac/indexeddb-storing-data-locally-on-browsers-with-html5
 [4]: http://girliemac.github.io/presentation-slides/html5-mobile-approach/rwd.html
@@ -56,6 +65,6 @@ A lot of people have asked me what framework I use for my slides. The answer is 
 
 [shower]: https://github.com/shower/shower
 
-
+[lan]: http://lanyrd.com/profile/girlie_mac/
 
 
