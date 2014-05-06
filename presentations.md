@@ -19,6 +19,8 @@ You can view my past and upcoming appearances on [Lanyrd][lan] (conference only,
 
 * [HTML slides on Github][6]
 * [Static slides on SperakerDeck][6a]
+* [Video on Ustream.tv][6b] (40:14)
+* [Description on Lanyard][6c] Craft Conf Budapest 2014
 
 <script async class="speakerdeck-embed" data-id="d27b12d0b6d20131d6591a515edcce73" data-ratio="1.6" src="//speakerdeck.com/assets/embed.js"></script>
 
@@ -52,6 +54,8 @@ You can view my past and upcoming appearances on [Lanyrd][lan] (conference only,
 
 [6]: http://girliemac.github.io/presentation-slides/html5-mobile-2014/index.html
 [6a]: https://speakerdeck.com/girlie_mac/the-state-of-mobile-html5-2013-2014
+[6b]: http://www.ustream.tv/recorded/46665412
+[6c]: http://lanyrd.com/2014/craftconf/sctqdr/
 [5]: http://girliemac.github.io/presentation-slides/html5-indexedDB/index.html
 [5a]: https://speakerdeck.com/girlie_mac/indexeddb-storing-data-locally-on-browsers-with-html5
 [4]: http://girliemac.github.io/presentation-slides/html5-mobile-approach/rwd.html
