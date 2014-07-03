@@ -27,4 +27,4 @@ categories:
 [caniuse]: http://caniuse.com/indexeddb
 [w3conf]: https://www.youtube.com/watch?v=3Afi-v-m_Gc
 [ayb]: https://vimeo.com/83837733
-[app]: coremob.github.com/camera/vanilla/index.html
+[app]: http://coremob.github.io/camera/vanilla/index.html
