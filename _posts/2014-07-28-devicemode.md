@@ -57,20 +57,20 @@ Clicking "Layers" tab gives you a visualized DOM layers to measure rendering and
 
 ## Takeaways
 
-Here's a list of the DevTools new features for mobile development:
+Here is a list of the DevTools new features for mobile development:
 
 Responsive Layouts
 
-- Rich reprresentsation of media queries
+- Rich reprresentsation of media-queries
 - Style filtering
 - Media-queries editting
 - Inline emulation
 
 Rich Emulaton
 
-- Device Presets for most popular devices
+- Device presets for most popular devices
 - Rich viewport emulation
-- Sensor emulation (touch, geoloc, accelerometer)
+- Sensor emulation (touch, geolocation, accelerometer)
 - Network throttling and offline
 
 Remote Debugging
