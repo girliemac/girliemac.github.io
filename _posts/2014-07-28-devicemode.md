@@ -39,7 +39,7 @@ The new tool comes with the network emulation presets as well. From the dropdown
 
 ## Remote Debugging with Screencast
 
-There is a newer addition to the Device Mode- a better screencasting feature. This obscure feature has been intruduced to Chrome DevTools already a while ago, but the new and improved features just landed to Canary as an experimental tool. This new screencast comes with Carary build 38.0.2101.0 and newer.
+There is a newer addition to the Device Mode- a better screencasting feature. This obscure feature has been intruduced to Chrome DevTools already a while ago, but the new and improved features just landed to Canary as an experimental tool. This new screencast comes with Canary build 38.0.2101.0 and newer.
 
 To use the experimental features, you need to enable the *DevTools Experiments* from `chrome://flags/#enable-devtools-experiments`. Then open the DevTools and click the gear icon to manually turn on the screencast feature.
 
