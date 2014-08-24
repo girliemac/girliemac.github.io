@@ -19,9 +19,7 @@
   <div class="article-author-side">
     <img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
     {% include _author-bio.html %}
-    <div id="cc" style="margin-top: 1em">
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-    </div>
+    {% include _license.html %}
   </div>
   <article itemscope itemtype="http://schema.org/CreativeWork">
     <h1 itemprop="name">{{ page.title }}</h1>
