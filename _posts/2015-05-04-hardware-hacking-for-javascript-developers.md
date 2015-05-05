@@ -1,5 +1,5 @@
 ---
-title: Hardware Hacking for JavaScript Peeps: How I Got My Hands on Breadboards and Resistors
+title: Hardware Hacking for JavaScript Peeps- How I Got My Hands on Breadboards and Resistors
 author: Tomomi Imura
 layout: post
 categories:
