@@ -76,10 +76,10 @@ board.on('ready', function() {
 
 ## Snapping littleBits with Johnny-Five
 
-A year ago, I bought [littleBits Auduino Starter Bundle][bundle], when they announced the Auduino at Heart module at MakerFaire.
+A year ago, I bought [littleBits Auduino Starter Bundle][bundle], when they announced the *Auduino at Heart* module at MakerFaire.
 
 ![littleBits](/assets/images/articles/2015/05/littlebits-kit.jpg "littleBits")
-*My littleBits, photo by Eric Grossman*
+*My littleBits, photo by my coworker, Eric Grossman*
 
 
 [littleBits][littlebits] is a colorful electric modules with open-source libraries. Like Tessel, assembling the circuit is easy and it doesn't require wiring. Actually, littleBits is far more kids-friendly that you can snap together with magnets.
@@ -173,6 +173,8 @@ Finally, it is an easy part- use Johnny-Five again to program the LED.
 
 To use Johnny-Five with RPi, you need the I/O plugin, [raspi-io][raspi-io], written by [Bryan Hughes][bryan]. 
 
+Manipulating the LED wired to a GPIO is as easy as:
+
 ```javascript
 var raspi = require('raspi-io');
 var five = require('johnny-five');
@@ -191,11 +193,27 @@ I was just a front-end person, writing JavaScript to build web. Now I can write 
 
 A few wirings (or maybe more) later, I even ran an Internet of Things Workshop with Raspberry Pi for noobs at IoT Stream Conf in April.
 
-With big helps from my awesome coworkers, Bhavana and Eric, I worked as an instructional designer to create a workshop curriculum, also as an instructor at the workshop so I could share my experiences with people who wants to get their hands dirty with Raspberry Pi too.
+With big helps from my awesome coworkers, [Bhavana][bana], [Eric][eric], and a Raspberry Pi Evangelist [Matt Richardson][matt], I played as an instructional designer to create a workshop curriculum, also as an instructor at the workshop so I could share my experiences with people who wants to get their hands dirty with Raspberry Pi too. 
 
 If you are interested, you can take a look at the workshop material and docs on [GitHub][github]. The workshop [walk-through slides][slides] are available, too.
 
 Happy hardware hacking!
+
+### Learn More:
+
+- [Tessel Docs][tessel-docs] by Technical Machine
+- [Johnny-Five][j5] by Bocoup
+- [Johnny-Five IO plugin for Raspberry Pi][raspi-io] by Bryan Hughes
+- [programming littleBits with Johnny-Five][anna] by Anna Gerber
+- [Raspberry Pi Documentations][rpi-docs] by Raspberry Pi Foundation
+- [Learn Raspberry Pi][ada] by Ada Fruit
+
+### Also, Check them out:
+
+- [Tessel][tessel] by Technical Machine
+- [littleBits][littlebits] by littleBits Electronics
+- [Auduino at Heart][aah] by Arduino
+- [Raspberry Pi][rpi] by Raspberry Pi Foundation
 
 
 
@@ -203,9 +221,11 @@ Happy hardware hacking!
 [pubnubBlog]: http://www.pubnub.com/blog/author/tomomi/
 
 [tessel]: http://tessel.io 
+[tessel-docs]: https://tessel.io/docs/home
 [j5]: http://johnny-five.io/
 [j5-support]: http://johnny-five.io/platform-support/
 [bundle]: http://www.makershed.com/products/littlebits-arduino-starter-bundle
+[aah]: http://www.arduino.cc/en/ArduinoAtHeart/HomePage
 [littlebits]:http://littlebits.cc/
 [anna]: https://github.com/AnnaGerber/little-bits-js
 [littlebit-blog]:http://www.pubnub.com/blog/triggering-littlebits-leds-in-realtime-with-node-js-using-johnny-five/
@@ -218,3 +238,8 @@ Happy hardware hacking!
 [tweet]: https://twitter.com/girlie_mac/status/595356675898351616
 [rick]: https://twitter.com/rwaldron
 [bryan]: https://twitter.com/nebrius
+[bana]: https://twitter.com/bhavana1110
+[eric]: https://twitter.com/EM_Grossman
+[matt]: https://twitter.com/MattRichardson
+[rpi-docs]: https://www.raspberrypi.org/documentation/
+[ada]: https://learn.adafruit.com/category/learn-raspberry-pi
