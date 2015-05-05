@@ -142,7 +142,7 @@ Well, I never imagined some day I became a good friend with Ohm's Law when I stu
 
 Raspberry Pi has the GPIO (General Purpose Input Output) pins, which are a physical interface between the Pi and the outside world. Awesome, I can program the pins to interact the inputs and outputs, for instance, I can send data from sensors and/or to devices such as LEDs!
 
-(photo)
+![GPIO](/assets/images/articles/2015/05/gpio.jpg "GPIO")
 
 
 #### Wire Them Up!
@@ -150,6 +150,7 @@ Raspberry Pi has the GPIO (General Purpose Input Output) pins, which are a physi
 Now I put them together, build the circuit on a breadboard using wires.
 
 Use some color convention to avoid confusion:
+
 - Black wires for ground
 - Red wires for voltage
 
