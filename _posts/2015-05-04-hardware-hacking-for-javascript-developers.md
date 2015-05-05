@@ -1,6 +1,5 @@
 ---
 title: Hardware Hacking for JavaScript Peeps: How I Got My Hands on Breadboards and Resistors
-
 author: Tomomi Imura
 layout: post
 categories:
@@ -9,6 +8,7 @@ categories:
   - javascript
   - node.js  
 ---
+
 ![I'm blinking](/assets/images/articles/2015/05/imblinking.jpg "I'm blinking")
 
 I totally have neglected girliemac.com. I don't even remember when the last time I blogged for my own website, since I started [writing technical articles and tutorials][pubnubBlog] for PubNub where I joined last summer. 
