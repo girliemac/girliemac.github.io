@@ -54,7 +54,7 @@ camera.on('ready', function() {
 
 While I was wondering if Tessel is only microcentroller that runs JavaScript, I met Johnny-Five.
 
-[Johnny-Five][j5] is an Open Source, Firmata Protocol based, IoT and Robotics programming framework for Node.js, developed by Rick Waldron and his team at Bocoup. 
+[Johnny-Five][j5] is an Open Source, Firmata Protocol based, IoT and Robotics programming framework for Node.js, developed by [Rick Waldron][rick] and his team at Bocoup. 
 
 What does this mean to me? 
 
@@ -164,7 +164,7 @@ Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights
 
 Finally, it is an easy part- use Johnny-Five again to program the LED.
 
-To use Johnny-Five with RPi, you need the I/O plugin by Bryan M Hughes, [raspi-io][raspi-io]. 
+To use Johnny-Five with RPi, you need the I/O plugin by [Bryan Hughes][bryan], [raspi-io][raspi-io]. 
 
 ```javascript
 var raspi = require('raspi-io');
@@ -182,13 +182,13 @@ I was just a front-end person, writing JavaScript to build web. Now I can write 
 
 ## I Hack Hardware So You Can Do Too
 
-A few wirings later, I even started teaching Internet of Things Workshop for Raspberry Pi noobs. 
+A few wirings (or maybe more) later, I even ran an Internet of Things Workshop with Raspberry Pi for noobs at IoT Stream Conf in April.
 
-With helps from my coworkers, Bhavana and Eric, I have created a workshop curriculum, so I can share my experiences with people who wants to get started with Raspberry Pi too.
+With big helps from my awesome coworkers, Bhavana and Eric, I worked as an instructional designer to create a workshop curriculum, also as an instructor at the workshop so I could share my experiences with people who wants to get their hands dirty with Raspberry Pi too.
 
 If you are interested, you can take a look at the workshop material and docs on [GitHub][github]. The workshop [walk-through slides][slides] are available, too.
 
- 
+
 
 
 [pubnubBlog]: http://www.pubnub.com/blog/author/tomomi/
@@ -207,3 +207,5 @@ If you are interested, you can take a look at the workshop material and docs on 
 [github]: https://github.com/pubnub/workshop-raspberrypi
 [slides]: https://docs.google.com/presentation/d/1edIz6OUgDnmFKiACKiL6hcl7GrnW0DHFeGt8KE5dsAw/edit?usp=sharing
 [tweet]: https://twitter.com/girlie_mac/status/595356675898351616
+[rick]: https://twitter.com/rwaldron
+[bryan]: https://twitter.com/nebrius
