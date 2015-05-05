@@ -92,7 +92,7 @@ As my first easy and fun project with littleBits & Johnny-Five, I created a [Bli
 
 I documented and wrote an article about this project, so please check it out on my PubNub blog, [**Triggering littleBits LEDs with Node.js Using Johnny-Five**][littlebit-blog].
 
-## Raspberry Pi with Johnny-Five
+## Baking Raspberry Pi with Johnny-Five
 
 My next encounter was Raspberry Pi. Luckily, I have handful of hardware-hacking coworkers, who I can bug to ask questions.
 
@@ -167,7 +167,7 @@ Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights
 *I used this super awesome open-source tool, [Fritzing](http://fritzing.org/) to draw the breadboard!*
 
 
-## Blinking LED with JavaScript
+## Blinking a LED with JavaScript
 
 Finally, it is an easy part- use Johnny-Five again to program the LED.
 
@@ -204,7 +204,7 @@ Happy hardware hacking!
 - [Tessel Docs][tessel-docs] by Technical Machine
 - [Johnny-Five][j5] by Bocoup
 - [Johnny-Five IO plugin for Raspberry Pi][raspi-io] by Bryan Hughes
-- [programming littleBits with Johnny-Five][anna] by Anna Gerber
+- [Programming littleBits with Johnny-Five][anna] by Anna Gerber
 - [Raspberry Pi Documentations][rpi-docs] by Raspberry Pi Foundation
 - [Learn Raspberry Pi][ada] by Ada Fruit
 
