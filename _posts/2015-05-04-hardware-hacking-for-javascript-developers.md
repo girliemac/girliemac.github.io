@@ -13,17 +13,17 @@ categories:
 
 I totally have neglected girliemac.com. I don't even remember when the last time I blogged for my own website, since I started [writing technical articles and tutorials][pubnubBlog] for PubNub where I joined last summer. 
 
-Until last year, my focus was mainly on HTML5 and mobile developement, however, I am shifting towards Internet of Things movement these days. It is not that I have lost interest on the web standards but I just simply starting geeking out more with hardware.
+Until last year, my focus was mainly on HTML5 and mobile development, however, I am shifting towards Internet of Things movement these days. It is not that I have lost interest on the web standards but I just simply starting geeking out more with hardware.
 
 
-I've always loved crafty things since I was a kid, and later in my life, I tought myself how to develp web sites, but I have zero background in electrical engineering. Maybe I took some physics 101 or so. I can crochet and code but didn’t know how to solder or wire. Also, I don't know how to code in C (or something that I imagined I needed to know to program hardware). I got myself an Arduino Uno a few years ago, but I haven't even opened the box for a long time.
+I've always loved crafty things since I was a kid, and later in my life, I taught myself how to develop web sites, but I have zero background in electrical engineering. Maybe I took some physics 101 or so. I can crochet and code but I didn’t know how to solder or wire. Also, I don't know how to code in C (or something that I imagined I needed to know to program hardware). I got myself an Arduino Uno a few years ago, but I haven't even opened the box for a long time.
 
 So you wonder how I, a front-end web developer, got involved on hardware hacking.
 
 
 ## I Can Code in Node! Controlling Tessel with Node.js
 
-Last year, I heard about [Tessel][tessel]. I initilaly thought it was an another microcontroller that I would never even bothered, but I was so wrong. I gave it a try, and within a few hours I first touched Tessel and its camera module, I was already able to make it take my selfies and tweeted.
+Last year, I heard about [Tessel][tessel]. I initially thought it was an another microcontroller that I would never even bothered, but I was so wrong. I gave it a try, and within a few hours I first touched Tessel and its camera module, I was already able to make it take my selfies and tweeted.
 
 ![Tessel](/assets/images/articles/2015/05/tessel.jpg "Tessel")
 
@@ -96,7 +96,7 @@ I documented and wrote an article about this project, so please check it out on 
 
 My next encounter was Raspberry Pi. Luckily, I have handful of hardware-hacking coworkers, who I can bug to ask questions.
 
-[Raspberry Pi][rpi] is a fully-functional single-board computer, rather than a microcontroller, and you can run operating system like Linux and FreeBSD (and Microsoft has announced Windows 10 for Raspberry Pi 2 recently, and [I just installed it to try out][tweet]!) from a micro SD card. Plug it into a monitor, keyborad, and a mouse, you have a full graphical user-interface of an OS of your choice (I picked [Raspbian][raspbian]).
+[Raspberry Pi][rpi] is a fully-functional single-board computer, rather than a microcontroller, and you can run operating system like Linux and FreeBSD (and Microsoft has announced Windows 10 for Raspberry Pi 2 recently, and [I just installed it to try out][tweet]!) from a micro SD card. Plug it into a monitor, keyboard, and a mouse, you have a full graphical user-interface of an OS of your choice (I picked [Raspbian][raspbian]).
 
 As usual, I wanted to start with LED blink, which I call *Hello World* of hardware. Unlike Tessel and Arduino, RPi board does not come with an LED, so naturally, my initial challenge was to complete the circuit.
 
@@ -111,7 +111,7 @@ OK, I got it.
 
 #### Next, Know Your LED
 
-LEDs are polarized and only allow current to flow in one direction. The first thing I had to learn was that annode should be connected to the power source, and the cathode should be connected to the ground.
+LEDs are polarized and only allow current to flow in one direction. The first thing I had to learn was that anode should be connected to the power source, and the cathode should be connected to the ground.
 Each LED has two legs, a long one is an anode (+), and a short one is cathode (-). 
 
 ![Circuit](/assets/images/articles/2015/05/led.png "LED")
@@ -147,9 +147,9 @@ Raspberry Pi has the GPIO (General Purpose Input Output) pins, which are a physi
 
 #### Wire Them Up!
 
-Now I put them together, build the cuircuit on a breadboard using wires.
+Now I put them together, build the circuit on a breadboard using wires.
 
-Use some color convernsion to avoid confusion:
+Use some color convention to avoid confusion:
 - Black wires for ground
 - Red wires for voltage
 
@@ -177,7 +177,7 @@ board.on('ready', function() {
 ```
 
 Ta-da!
-I was just a front-end person, writing JavaScript to build web. Now I can write JavaScript to control hardware! How awesomeis that?
+I was just a front-end person, writing JavaScript to build web. Now I can write JavaScript to control hardware! How awesome is that?
 
 ## I Hack Hardware So You Can Do Too
 
