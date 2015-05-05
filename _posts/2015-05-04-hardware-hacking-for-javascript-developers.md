@@ -161,7 +161,7 @@ Use some color convention to avoid confusion:
 
 ![LED](/assets/images/articles/2015/05/rpi-led.jpg "LED on")
 
-Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights up just fine, then, re-wire the red wire to a GPIO pin so I could light LED programmatically.
+Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights up just fine, then, re-wire the red wire to a GPIO pin (in this example, GPIO 4, at Physical pin 7; There are two different pin number schemes!) so I could light LED programmatically.
 
 ![Circuit](/assets/images/articles/2015/05/fritzing-led-400_bb.png "LED circuit")
 *I used this super awesome open-source tool, [Fritzing](http://fritzing.org/) to draw the breadboard!*
@@ -179,7 +179,7 @@ var five = require('johnny-five');
 var board = new five.Board({io: new raspi()});
 
 board.on('ready', function() {
-  var led = new five.Led('P1-7');
+  var led = new five.Led('P1-7'); // Pin 7 (GPIO 4)
   led.blink(500);
 });
 ```
