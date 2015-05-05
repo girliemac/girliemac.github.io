@@ -145,7 +145,7 @@ Raspberry Pi has the GPIO (General Purpose Input Output) pins, which are a physi
 (photo)
 
 
-#### Wire them up
+#### Wire Them Up!
 
 Now I put them together, build the cuircuit on a breadboard using wires.
 
@@ -153,7 +153,7 @@ Use some color convernsion to avoid confusion:
 - Black wires for ground
 - Red wires for voltage
 
-![LED](/assets/images/articles/2015/05/rpi-led "LED on")
+![LED](/assets/images/articles/2015/05/rpi-led.jpg "LED on")
 
 Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights up just fine, then, re-wire the red wire to a GPIO pin so I could light LED programmatically.
 
