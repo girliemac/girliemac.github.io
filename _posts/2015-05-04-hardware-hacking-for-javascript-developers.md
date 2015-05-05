@@ -126,15 +126,17 @@ The LED I bought on Amazon came with a data sheet, so I can just use the numbers
 R = (Vs-Vf)/I
 ```
 
-- Voltage Source (Vs) from RPi is 3.3V.
-- Forward LED voltage (Vf) is 1.9V (According to the data sheet)
-- Current through the LED is 20mA = 0.02A (Also from data sheet)
+- Voltage Source (Vs) from RPi is **3.3V**.
+- Forward LED voltage (Vf) is **1.9V** (According to the data sheet)
+- Current through the LED is **20mA** = **0.02A** (Also from data sheet)
 
-R = (3.3v - 1.9v) / 0.02 = 70Ω
+So, R = (3.3v - 1.9v) / 0.02 = 70Ω
 
-OK, the package of LEDs also came with 200Ω resistors, so let's use them. The intensity of the light may get lower, but it is safe for sure.
+OK, the package of LEDs I bought came with a bunch of 200Ω resistors, so let's just use it. The intensity of the light gets lower, but it is safe to use for sure.
 
 Well, I never imagined some day I became a good friend with Ohm's Law when I studied it in high school...
+
+Now I understand how to read this circuit:
 
 ![Circuit](/assets/images/articles/2015/05/circuit-led.png "LED circuit")
 
@@ -154,17 +156,22 @@ Use some color convention to avoid confusion:
 - Black wires for ground
 - Red wires for voltage
 
+(Or, use gray and pink if you want!)
+
+
 ![LED](/assets/images/articles/2015/05/rpi-led.jpg "LED on")
 
 Initially, I tested with Raspberry Pi's 3.3V Pin (Red wire) to see if LED lights up just fine, then, re-wire the red wire to a GPIO pin so I could light LED programmatically.
 
 ![Circuit](/assets/images/articles/2015/05/fritzing-led-400_bb.png "LED circuit")
+*I used this super awesome open-source tool, [Fritzing](http://fritzing.org/) to draw the breadboard!*
+
 
 ## Blinking LED with JavaScript
 
 Finally, it is an easy part- use Johnny-Five again to program the LED.
 
-To use Johnny-Five with RPi, you need the I/O plugin by [Bryan Hughes][bryan], [raspi-io][raspi-io]. 
+To use Johnny-Five with RPi, you need the I/O plugin, [raspi-io][raspi-io], written by [Bryan Hughes][bryan]. 
 
 ```javascript
 var raspi = require('raspi-io');
@@ -187,6 +194,8 @@ A few wirings (or maybe more) later, I even ran an Internet of Things Workshop w
 With big helps from my awesome coworkers, Bhavana and Eric, I worked as an instructional designer to create a workshop curriculum, also as an instructor at the workshop so I could share my experiences with people who wants to get their hands dirty with Raspberry Pi too.
 
 If you are interested, you can take a look at the workshop material and docs on [GitHub][github]. The workshop [walk-through slides][slides] are available, too.
+
+Happy hardware hacking!
 
 
 
