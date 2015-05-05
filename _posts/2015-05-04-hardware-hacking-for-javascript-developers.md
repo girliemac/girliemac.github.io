@@ -16,18 +16,18 @@ I totally have neglected girliemac.com. I don't even remember when the last time
 Until last year, my focus was mainly on HTML5 and mobile development, however, I am shifting towards Internet of Things movement these days. It is not that I have lost interest on the web standards but I just simply starting geeking out more with hardware.
 
 
-I've always loved crafty things since I was a kid, and later in my life, I taught myself how to develop web sites, but I have zero background in electrical engineering. Maybe I took some physics 101 or so. I can crochet and code but I didn’t know how to solder or wire. Also, I don't know how to code in C (or something that I imagined I needed to know to program hardware). I got myself an Arduino Uno a few years ago, but I haven't even opened the box for a long time.
+I've always loved crafty things since I was a kid, and later in my life, I taught myself how to develop web sites, but I have zero background in electrical engineering. (Well, maybe I took some physics 101 or so, but just about it!) I can crochet and code but I didn’t know how to solder or wire. Also, I don't know how to code in C (or something that I imagined I needed to know to program hardware). I got myself an Arduino Uno a few years ago, but I haven't even opened the box for a long time.
 
 So you wonder how I, a front-end web developer, got involved on hardware hacking.
 
 
 ## I Can Code in Node! Controlling Tessel with Node.js
 
-Last year, I heard about [Tessel][tessel]. I initially thought it was an another microcontroller that I would never even bothered, but I was so wrong. I gave it a try, and within a few hours I first touched Tessel and its camera module, I was already able to make it take my selfies and tweeted.
+Last year, I heard about [Tessel][tessel]. I initially thought it was an another microcontroller that I would never even bothered, but I was so wrong. I gave it a try, and within a few hours after I touched Tessel and a camera module, I was already able to make it take my selfies and tweet it!!!
 
 ![Tessel](/assets/images/articles/2015/05/tessel.jpg "Tessel")
 
-There are two main reasons why I was able to do so- 
+There are two main reasons why I was able to do so easily: 
 
 First, Tessel runs JavaScript, and because each Tessel contains a built-in wifi chip, internet-enabled JavaScript programs can be run directly from the device. Secondly, Tessel supports easy plug-and-play modules so I don't have to know how to wire to be able to use sensors. Each module has an open source library on npm, so it's literally plug, npm install, and play.
 
@@ -50,11 +50,11 @@ camera.on('ready', function() {
 });
 ```
 
-## JavaScript All The Things: Johnny-Five
+## JavaScript All The Things! Meet Johnny-Five
 
 While I was wondering if Tessel is only microcentroller that runs JavaScript, I met Johnny-Five.
 
-[Johnny-Five][j5] is an Open Source, Firmata Protocol based, IoT and Robotics programming framework for Node.js, developed by [Rick Waldron][rick] and his team at Bocoup. 
+[Johnny-Five][j5] is an Open Source, Firmata Protocol based, IoT and Robotics programming framework for Node.js, developed by [Rick Waldron][rick] and his team at Bocoup. (Congrats on the new web launch!)
 
 What does this mean to me? 
 
@@ -62,7 +62,7 @@ It means I can start playing with other microcontroller in JavaScript, even if t
 
 Johnny-Five is supported by variety of Arduino-compatible Boards, also with using IO plugins, it supports many more boards regardless of the languages and platforms! This makes my hardware-hacking adventure so much easier.
 
-Thanks to the team, using Johnny-Five is super easy. To blink an LED (in this case, with Auduino Uno), all you need to do is `npm install johnny-five` then write in Node.js like this:
+Thanks to the team, using Johnny-Five is super easy. To blink an LED (in this example, with Auduino Uno), all you need to do is `npm install johnny-five` then write in Node.js like this:
 
 ```javascript
 var five = require('johnny-five');
@@ -74,7 +74,7 @@ board.on('ready', function() {
 });
 ```
 
-## littleBits with Johnny-Five
+## Snapping littleBits with Johnny-Five
 
 A year ago, I bought [littleBits Auduino Starter Bundle][bundle], when they announced the Auduino at Heart module at MakerFaire.
 
@@ -98,7 +98,7 @@ My next encounter was Raspberry Pi. Luckily, I have handful of hardware-hacking 
 
 [Raspberry Pi][rpi] is a fully-functional single-board computer, rather than a microcontroller, and you can run operating system like Linux and FreeBSD (and Microsoft has announced Windows 10 for Raspberry Pi 2 recently, and [I just installed it to try out][tweet]!) from a micro SD card. Plug it into a monitor, keyboard, and a mouse, you have a full graphical user-interface of an OS of your choice (I picked [Raspbian][raspbian]).
 
-As usual, I wanted to start with LED blink, which I call *Hello World* of hardware. Unlike Tessel and Arduino, RPi board does not come with an LED, so naturally, my initial challenge was to complete the circuit.
+As usual, I wanted to start with LED blink, which I call *Hello World* of hardware. Unlike Tessel and Arduino, RPi board does not come with an LED, so naturally, my initial challenge was to complete the circuit. Here is the challenges (I think) I conquered:
 
 ####First Challenge: Get Familiarize with Breadboards
 
