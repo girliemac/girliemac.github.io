@@ -441,6 +441,10 @@ Also to see how I used PubNub to stream the live photos on web browser, look at 
 ![Jamie undetected](photo/image_166.jpg "Jamie undetected")
 ![Upside-down Jamie undetected](photo/image_311.jpg "Jamie undetected")
 
+## OMG, I demo'd it on Live TV Show!
+
+See my [last blog post](http://www.girliemac.com/blog/2015/09/14/the-screen-savers-show/) about my experience being on Twit TV! You can watch the segment on the [recorded show](https://twit.tv/shows/new-screen-savers/episodes/19?autostart=false) too.
+
 ## References
 - [Raspberry Pi](https://www.raspberrypi.org/): Teach, Learn, and Make with Raspberry Pi 
 - [Node ARM](https://github.com/nathanjohnson320/node_arm): Install node.js on a raspberry pi in two easy steps
