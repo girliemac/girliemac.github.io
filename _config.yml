@@ -6,7 +6,7 @@ domain: http://girliemac.com
 permalink: /blog/:year/:month/:day/:title/
 disqus_shortname: girliemac
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 port: 4444
 
 # Author information
