@@ -15,7 +15,7 @@ categories:
 
 Ho, ho, ho! This is an overdue blog post for [the project](https://github.com/girliemac/RPi-KittyCam) I've worked on during summer!
 
-Last August, I created this Raspberry Pi app using a camera and PIR motion sensor, written in Node.js using *Johnny-Five* and *KittyDar* for with cat facial detection. As I promised on the README file of the GitHub repo, I am finally writing the step-by-step instruction of how I built hardware and wrote the app.
+Last August, I created this Raspberry Pi app using a camera and PIR motion sensor, written in Node.js with helps with **Johnny-Five** and **KittyDar**. As I promised on the README file of the GitHub repo, I am finally writing the detailed instruction of how I built hardware and wrote the app.
 
 ![KittyCam on YouTube](/assets/images/articles/2015/12/youtube-kittycam-thumb.jpg "YouTube")
 [Watch the demo on YouTube :-)](https://www.youtube.com/watch?v=wqewhjhjaHY)
@@ -30,15 +30,15 @@ This is the basic flow:
 1. Detect motion (Use Johnny-Five IR.Motion obj) 
 2. Take photos (Raspistill, command line tool)
 3. Cat facial detection (KittyDar)
-4. Store the photos in cloud (Cloudinary)
+4. Store the photos in cloud storage (Cloudinary)
 5. Publish the data (URL) to PubNub for realtime streaming
 6. Stream on web (subscribe the data from PubNub)
 
 ![KittyCam flow](/assets/images/articles/2015/12/kittyCam-app.png "KittyCam flow")
 
-The hardware is operated with [Johnny-Five](http://johnny-five.io/), open-source JavaScript robotics programming framework. I am using it to detect motion from the PIR sensor. When it detect my cat (or any moving object) nearby Raspberry Pi, it triggers the camera. 
+The hardware-software communication is done with [Johnny-Five](http://johnny-five.io/), open-source JavaScript robotics programming framework. I am using it to talk with a PIR sensor. When the sensor detect my cat (or any moving objects) nearby Raspberry Pi, it triggers the camera. 
 
-Photos are taken using `Raspistill` command line. One cool thing about Node.js is that you can execute commands by spawning child processes.
+Photos are taken using `raspistill` command line. One cool thing about Node.js is that you can execute commands by spawning child processes.
 
 Once a photo is taken, I am using another child process to detect if any cats are on the photo, using [KittyDar](https://github.com/harthur/kittydar), an open source face detection for cats, written by Heather Arthur.
 
@@ -450,6 +450,10 @@ Also to see how I used PubNub to stream the live photos on web browser, look at 
 ## OMG, I demo'd KittyCam on Live TV Show!
 
 See my [last blog post](http://www.girliemac.com/blog/2015/09/14/the-screen-savers-show/) about my experience being on Twit TV! You can watch the segment on the [recorded show](https://twit.tv/shows/new-screen-savers/episodes/19?autostart=false) too.
+
+
+OK, I hope you enjoyed my lengthy blog post!
+
 
 ## References
 - [Raspberry Pi](https://www.raspberrypi.org/): Teach, Learn, and Make with Raspberry Pi 
