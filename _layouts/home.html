@@ -26,13 +26,14 @@
 </div>
 
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h3><a href="{{ site.url}}/blog/">Articles</a></h3>
+  <h3>Articles</h3>
   {% for post in site.posts limit:5 %}    
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
     <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
   </article>
   {% endfor %}
+  <p><a href="{{ site.url}}/blog/">More...</a></p>
 </div><!-- /#index -->
 
 <footer>
