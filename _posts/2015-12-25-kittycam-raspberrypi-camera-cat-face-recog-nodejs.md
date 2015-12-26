@@ -1,5 +1,5 @@
 ---
-title: KittyCam: Building a Raspberry Pi Camera with Cat Face Recognition
+title: KittyCam - Building a Raspberry Pi Camera with Cat Face Recognition
 author: Tomomi Imura
 layout: post
 categories:
@@ -8,7 +8,7 @@ categories:
   - pubnub
   - javascript
   - node.js  
-  - cats
+ - cats
 ---
 
 ![RPi KittyCam](https://lh3.googleusercontent.com/UuKlrNQWs5wFciRqI8qiZKTVoh4XrTBa40LD5mUa5MIn=w1346-h757-no "Rapsberry Pi KittyCam")
