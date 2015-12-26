@@ -8,6 +8,7 @@ categories:
   - pubnub
   - javascript
   - node.js  
+  - cats
 ---
 
 ![The Screen Savers](/assets/images/articles/2015/09/screensavers.jpg "I'm on TV!")
