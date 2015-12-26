@@ -64,7 +64,7 @@ But if you are a newbie, I recommend to buy your first Pi from [CanaKit](http://
 1. Raspberry Pi 2 (with WiFi adapter)
 2. 5MP Camera Board Module ([buy](http://www.amazon.com/gp/product/B00E1GGE40/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00E1GGE40&linkCode=as2&tag=girliemac-20&linkId=2OCOQHE3JOB5U7OF))
 3. Pyroelectric Infrared (PIR) motion sensor ([buy](http://www.amazon.com/gp/product/B00IYE7X9A/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00IYE7X9A&linkCode=as2&tag=girliemac-20&linkId=BSNV7DTMA2BMRDDQ))
-4. 3 F-to-F wires ([buy](http://www.amazon.com/gp/product/B007MRQC1K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007MRQC1K&linkCode=as2&tag=girliemac-20&linkId=HRFGKRZW6NAVPVOS))
+4. 3 Female/Female wires ([buy](http://www.amazon.com/gp/product/B007MRQC1K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007MRQC1K&linkCode=as2&tag=girliemac-20&linkId=HRFGKRZW6NAVPVOS))
 5. Optional: LEGO compatible SmartiPi w/ camera case ([buy](http://www.amazon.com/gp/product/B00UDP00S4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00UDP00S4&linkCode=as2&tag=lusciousbodys-20&linkId=TMZRQTUVNHMFY7K7))
 
 
@@ -91,7 +91,7 @@ The photo below is my Pi enclosed in SmartiPi case:
 
 ## Working Remotely from Mac
 
-You can plug up a monitor, keyboard, mouse, etc to your Pi and work directly on Raspbian GUI, or work from you Mac, like I usually do. 
+You can plug in a monitor, keyboard, mouse, etc to your Pi and work directly on Raspbian GUI, or work from you Mac, like I usually do. This is how I work remotely on Mac:
 
 ### SSH-ing into Raspberry Pi
 
@@ -99,13 +99,17 @@ First, make sure your Pi and computer are on the same WiFi network.
 
 If you are directly connecting your Pi to a monitor and a keyboard, open a terminal, and find the IP address:
 
-`pi@raspberrypi ~$ hostname -I`
+```bash
+pi@raspberrypi ~$ hostname -I
+```
 
 Or use some IP scanner app on Mac, like [Angry IP Scanner](http://angryip.org/download/#mac) to scan all connected devices.
 
 Once you find the IP address, open a terminal app on Mac, and ssh into the address. I am using the default username for Pi, "pi".
 
-`tomomi@Mac ~$ ssh pi@10.0.1.13`
+```bash
+tomomi@Mac ~$ ssh pi@10.0.1.13
+```
 
 Then type the password. Default is "raspberry".
 
@@ -113,7 +117,7 @@ Once connected to your Pi, you can create files, code, and execute from the term
 
 ### Coding on Your Fave IDE on Mac
 
-I usually use Sublime to code, so I prefer doing so for Pi as well. 
+I usually use **Sublime Text** to code, so I prefer doing so for coding on Pi as well. 
 Here's what I do:
 
 First, download and install [Cyberduck](https://cyberduck.io) on Mac.
@@ -134,11 +138,13 @@ In my case, it automatically select Sublime to edit JavaScript files.
 
 Make sure your Pi is up-to-date!
 
-`$ sudo apt-get update`
+```bash
+$ sudo apt-get update
+```
 
 then
 
-```
+```bash
 $ sudo apt-get upgrade
 ```
 
@@ -146,19 +152,19 @@ $ sudo apt-get upgrade
 
 Let's download node from [node-arm](http://node-arm.herokuapp.com/), which is probably the easiest way:
 
-```
+```bash
 $ wget http://node-arm.herokuapp.com/node_archive_armhf.deb
 ```
 
 once downloaded, install older node. (I used to recommend installing `node_latest_armhf.deb`, when I released the app, but there may be compatibility issue with the latest Node.js release, version above 4).
 
-```
+```bash
 $ sudo dpkg -i node_archive_armhf.deb
 ```
 
 Check if node is successfully installed. 
 
-```
+```bash
 $ node -v
 ```
 As of Dec. 2015, the archive should install Node v0.12.6. This is the version I used and works fine for sure.
@@ -168,9 +174,9 @@ As of Dec. 2015, the archive should install Node v0.12.6. This is the version I 
 
 To be able to use a hardware camera module with your Pi, you need to enable the software first.
 
-Go to *Pi Software Config Tool* menu from a terminal:
+Go to **Pi Software Config Tool** menu from a terminal:
 
-```
+```bash
 $ sudo raspi-config
 ```
 
@@ -182,7 +188,7 @@ Hit Return, then at the next screen, select **Enable**.
 
 Test if your camera is working by try typing this command on terminal:
 
-```
+```bash
 $ raspistill -o photo.jpg
 ```
 
@@ -201,7 +207,7 @@ for cat facial detection, I am using **kittydar**, which dependencies including 
 
 So let's get Cairo on your Raspbian first.
 
-```
+```bash
 $ sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
 ```
 
@@ -218,6 +224,7 @@ Otherwise, go to the next step to fresh-install the next several modules.
 **Kittydar** is an open-source cat face detection. It takes an image (canvas) and tells you the if cats are in the image.
 
 ![Jamie detected](http://res.cloudinary.com/girliemac/image/upload/v1440530252/jrfqcdul46c84qlqlks9.png "Jamie detected by KittyDar")
+
 *This is an actual photo taken by my Raspberry Pi, while Jamie was eating, and detected by KittyDar cat facial detection!*
 
 Once your environment is set up, in this RPi-KittyCam dir, install node dependency modules.
@@ -236,7 +243,7 @@ Get the zip from [my forked repo](https://github.com/girliemac/kittydar).
 
 **Johnny-Five** is a JavaScript Robotics programming framework. It makes communicating with hardware so much easier.
 
-```
+```bash
 $ npm install johnny-five
 ```
 
@@ -244,7 +251,7 @@ $ npm install johnny-five
 
 **Raspi-io** is a library to be used as an I/O plugin with Johnny-Five. You need to install this to use Johnny-Five on Raspbian. 
 
-```
+```bash
 $ npm install raspi-io
 ```
 
@@ -257,7 +264,7 @@ This step is optional, if you don't want to create a web interface to stream the
 For realtime live-updating the web interface, I am using PubNub. 
 To use the service, you need to [sign up](http://pubnub.com) to obtain your API keys.
 
-```
+```bash
 $ npm install pubnub
 ```
 
@@ -268,7 +275,7 @@ For storing photos, use Cloudinary.
 To use the service, you need to [sign up](http://cloudinary.com/) to obtain your API keys.
 
 
-```
+```bash
 $ npm install cloudinary
 ```
 
@@ -278,7 +285,7 @@ $ npm install cloudinary
 Create a `config.js` in the root dir of the app.
 The file should include your API keys:
 
-```
+```javascript
 module.exports = {
 
   cloudinary: {
@@ -297,11 +304,11 @@ module.exports = {
 
 ### 4. Run the Code
 
-If you have all source files from GitHub repo, run kittyCam.js.
+Once you have configured everything and have all source files from my GitHub repo, try running kittyCam.js.
 
 You must run with sudo:
 
-```
+```bash
 $ sudo node kittyCam.js
 ```
 
@@ -388,7 +395,7 @@ fork.on('message', function(base64) {
 });
 ```
 
-In ** detectCatsFromPhoto.js**, start the child process and use canvas and kittydar to detect cats. Once the process is done, the image is returned in Base64:
+In **detectCatsFromPhoto.js**, start the child process and use canvas and kittydar to detect cats. Once the process is done, the image is returned in Base64:
 
 ```javascript
 var fs = require('fs');
@@ -435,20 +442,19 @@ Also to see how I used PubNub to stream the live photos on web browser, look at 
 
 #### The cat photos failed to be recognized
 
-![Jamie undetected](photo/image_14.jpg "Jamie undetected")
-![Jamie undetected](photo/image_24.jpg "Jamie undetected")
-![Jamie undetected](photo/image_150.jpg "Jamie undetected")
-![Jamie undetected](photo/image_166.jpg "Jamie undetected")
-![Upside-down Jamie undetected](photo/image_311.jpg "Jamie undetected")
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_14.jpg "Jamie undetected") 
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_150.jpg "Jamie undetected") 
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_166.jpg "Jamie undetected") 
+![Upside-down Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_311.jpg "Jamie undetected")
 
-## OMG, I demo'd it on Live TV Show!
+## OMG, I demo'd KittyCam on Live TV Show!
 
 See my [last blog post](http://www.girliemac.com/blog/2015/09/14/the-screen-savers-show/) about my experience being on Twit TV! You can watch the segment on the [recorded show](https://twit.tv/shows/new-screen-savers/episodes/19?autostart=false) too.
 
 ## References
 - [Raspberry Pi](https://www.raspberrypi.org/): Teach, Learn, and Make with Raspberry Pi 
 - [Node ARM](https://github.com/nathanjohnson320/node_arm): Install node.js on a raspberry pi in two easy steps
-- [Johnyy-Five](https://johnny-five.io/): The original JavaScript Robotics programming framework
+- [Johnny-Five](http://johnny-five.io/): The original JavaScript Robotics programming framework
 - [Raspi-IO](https://github.com/nebrius/raspi-io): An IO plugin for Johnny-Five that provides support for the Raspberry Pi
 - [KittyDar](https://github.com/harthur/kittydar): Face detection for cats in JavaScript 
 - [Node Canvas](https://github.com/Automattic/node-canvas): A Cairo backed Canvas implementation for NodeJS
