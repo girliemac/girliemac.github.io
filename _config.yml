@@ -5,8 +5,8 @@ url:
 domain: http://girliemac.com
 permalink: /blog/:year/:month/:day/:title/
 disqus_shortname: girliemac
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 port: 4444
 
 # Author information
