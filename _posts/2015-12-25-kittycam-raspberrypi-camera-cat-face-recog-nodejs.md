@@ -156,7 +156,7 @@ Let's download node from [node-arm](http://node-arm.herokuapp.com/), which is pr
 $ wget http://node-arm.herokuapp.com/node_archive_armhf.deb
 ```
 
-once downloaded, install older node. (I used to recommend installing `node_latest_armhf.deb`, when I released the app, but there may be compatibility issue with the latest Node.js release, version above 4).
+and install the package:
 
 ```bash
 $ sudo dpkg -i node_archive_armhf.deb
@@ -213,8 +213,12 @@ $ sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev bui
 
 See more info on how to install Cairo for Node [Canvas](https://github.com/Automattic/node-canvas), see this [*Installation Ubuntu and other Debian based systems*](https://github.com/Automattic/node-canvas/wiki/Installation---Ubuntu-and-other-Debian-based-systems)
 
-If you download and use the whole `node_modules` contents of this repo, skip the step 2, and proceed to step 3.
-Otherwise, go to the next step to fresh-install the next several modules.
+```bash
+$ sudo npm install canvas
+```
+
+If you download the `node_modules` contents of my GitHub repo, skip the step 2, and proceed to step 3.
+Otherwise, go to the next step to manually fresh-install the next several modules. Just running `npm install` to fetch all dependencies may fail because there is some incompatibilities. (I explain it later).
 
 
 ### 2. Install Dependency Modules
