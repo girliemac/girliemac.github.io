@@ -61,11 +61,11 @@ But if you are a newbie, I recommend to buy your first Pi from [CanaKit](http://
 ![What you need and how to assemble](/assets/images/articles/2015/12/what-you-need-raspberry-pi.jpg "The stuff you need and how to assemble")
 
 
-1. Raspberry Pi 2 (with WiFi adapter)
-2. 5MP Camera Board Module ([buy](http://www.amazon.com/gp/product/B00E1GGE40/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00E1GGE40&linkCode=as2&tag=girliemac-20&linkId=2OCOQHE3JOB5U7OF))
-3. Pyroelectric Infrared (PIR) motion sensor ([buy](http://www.amazon.com/gp/product/B00IYE7X9A/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00IYE7X9A&linkCode=as2&tag=girliemac-20&linkId=BSNV7DTMA2BMRDDQ))
-4. 3 Female/Female wires ([buy](http://www.amazon.com/gp/product/B007MRQC1K/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007MRQC1K&linkCode=as2&tag=girliemac-20&linkId=HRFGKRZW6NAVPVOS))
-5. Optional: LEGO compatible SmartiPi w/ camera case ([buy](http://www.amazon.com/gp/product/B00UDP00S4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00UDP00S4&linkCode=as2&tag=lusciousbodys-20&linkId=TMZRQTUVNHMFY7K7))
+1. Raspberry Pi 2 (with WiFi adapter) ([buy](http://amzn.to/1rk3VZY))
+2. 5MP Camera Board Module ([buy](http://amzn.to/1UKaEXl))
+3. Pyroelectric Infrared (PIR) motion sensor ([buy](http://amzn.to/1ZJ3Nir))
+4. 3 Female/Female wires ([buy](http://amzn.to/1U8ajAZ))
+5. Optional: LEGO compatible SmartiPi w/ camera case ([buy](http://amzn.to/28vkhAR))
 
 
 ### Assembling Hardware
