@@ -213,15 +213,20 @@ $ sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev bui
 
 See more info on how to install Cairo for Node [Canvas](https://github.com/Automattic/node-canvas), see this [*Installation Ubuntu and other Debian based systems*](https://github.com/Automattic/node-canvas/wiki/Installation---Ubuntu-and-other-Debian-based-systems)
 
-```bash
-$ sudo npm install canvas
-```
-
 If you download the `node_modules` contents of my GitHub repo, skip the step 2, and proceed to step 3.
 Otherwise, go to the next step to manually fresh-install the next several modules. Just running `npm install` to fetch all dependencies may fail because there is some incompatibilities. (I explain it later).
 
-
 ### 2. Install Dependency Modules
+
+Now, `cd` to your working directry, and install dependencies.
+
+#### Install Canvas
+
+You need canvas (**node-canvas**) to be able to analyze images with KittyDar.
+
+```bash
+$ sudo npm install canvas
+```
 
 #### Install KittyDar
 
