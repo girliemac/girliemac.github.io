@@ -1,5 +1,5 @@
 ---
-title: Upgraidng KittyCam with Raspberry Pi 3
+title: Upgrading KittyCam with Raspberry Pi 3
 author: Tomomi Imura
 layout: post
 categories:
