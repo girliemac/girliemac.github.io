@@ -13,7 +13,7 @@ categories:
 *I am writing this article based on the short talk I gave at [DevRel Summit](http://www.devrelsummit.com/) in Seattle, and it is aimed for my fellow developer advocates, platform engineers, product managers, and CTOs, who work for companies that provide developer platforms, APIs etc. also anybody who advocate their own software / libraries / frameworks*
 
 ---
-![Developer Experience Matters](/assets/images/articles/2016/08/dx-jamie.jpg)
+![Developer Experience Matters](/assets/images/articles/2016/08/dx-jamie-comic.jpg)
 
 Let’s say, you are working for a company that provides public APIs, or you are an open-source JavaScript library author, who want to attract developers out there to use your products.
 
