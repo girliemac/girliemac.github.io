@@ -35,22 +35,22 @@ h6 {
 
 // Links
 // --------------------------------------------------
-a { 
+a {
 	text-decoration: none;
-	color: @link-color; 
-	&:visited { 
-		color: lighten(@link-color, 20); 
+	color: @link-color;
+	&:visited {
+		color: lighten(@link-color, 20);
 	}
-	&:hover { 
-		color: darken(@link-color, 20); 
-	}
-	&:focus { 
-		outline: thin dotted; 
+	&:hover {
 		color: darken(@link-color, 20);
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:focus {
+		outline: thin dotted;
+		color: darken(@link-color, 20);
+	}
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
@@ -97,10 +97,9 @@ figcaption {
 blockquote {
 	margin-left: -28px;
 	padding-left: 20px;
-	border-left: 8px solid @border-color;
+	border-left: 3px solid @border-color;
 	font-family: @alt-font;
 	font-style: italic;
-	.font-rem(24);
 }
 
 // Footnotes
@@ -131,7 +130,7 @@ tt, code, kbd, samp, pre {
 	font-family: @code-font;
 }
 p,
-li { 
+li {
 	code {
 		.font-rem(14);
 		line-height: 1.5;
