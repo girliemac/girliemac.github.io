@@ -200,6 +200,6 @@ Here's the slide deck from [DevRel Summit](http://www.devrelsummit.com/) :
 
 ## Epilogue
 
-Although my tireless efforts and successful outcomes, my work ethics did not align with my former employer's marketing department that controls developer evangelism. When somebody doesn't care the importance of developer experience, you have no job there. Well, it has been fun leading the team for a while!
+Despite my tireless efforts and successful outcomes, my principles of developer evangelism did not align with my former employer's marketing department that controls the team. When somebody doesn't care about developers, you have no job there. Well, it has been fun leading the team for a while!
 
-I am joining a company who truly embraces developer experience next week, so you will hear from me about my new gig pretty soon!
+I am joining a company who truly embraces developer experience, so you will hear from me about my new gig pretty soon!
