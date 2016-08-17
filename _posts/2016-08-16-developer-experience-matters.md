@@ -23,9 +23,9 @@ I have been working as a developer evangelist, or related positions in Developer
 
 This **Developer Experience** is one of the biggest key factors for developers to decide if they use certain technologies to use.
 
-## User Experiece and Developer Experience
+## User Experience and Developer Experience
 
-Before becoming a developer evangelst, I was working as a developer in Human Interface team for **Palm webOS** mobile platform. Although we didn't successfully dominate the market, what the team has designed has been inherited to present-era iOS and Android. For example, non-intrusive visual notification system, card views, universal search bar, etc.
+Before becoming a developer evangelist, I was working as a developer in Human Interface team for **Palm webOS** mobile platform. Although we didn't successfully dominate the market, what the team has designed has been inherited to present-era iOS and Android. For example, non-intrusive visual notification system, card views, universal search bar, etc.
 
 My then-teammates has influenced me so much, and it has affected my career and the way of thinking. Since then, I care **usability** and **user-experiences (UX)** for everything - not only software and hardware interface designs, but for coding styles, APIs, and documentations, because I believe UX is also applied to developers, when your *users* are developers.
 
@@ -43,7 +43,8 @@ Yes, I am suggesting Developer Experience *is* a type of User Experience!
 
 This is a good example of how not to design- At a gas station, you've got a gas pump looks like this, how do you react?
 
-![Local Gas Pump by Jared Spool](/assets/images/articles/2016/08/gas-pump.jpg)*
+![Local Gas Pump by Jared Spool](/assets/images/articles/2016/08/gas-pump.jpg)
+*(Photo credit: https://flic.kr/p/5ckBZq by Jared Spool. CC-BY-SA)*
 
 Typically, when a user face such bad user experience, the reactions would be:
 
@@ -57,7 +58,6 @@ How about if you provide very enigmatic API, sans proper documentations or tutor
 
 I think the reactions would be the same as above! The difference is that if you are at a gas station, you are more likely to try again or ask somebody to get your car filled up, while developers are more likely to google around (or ask Twitter followers) then ditch your service for use your competitor's over the bad developer experiences.
 
-*(Photo credit: https://flic.kr/p/5ckBZq by Jared Spool. CC-BY-SA)*
 
 ## Developer-Centric Products
 
@@ -86,7 +86,7 @@ He also tells us to *document religiously*- good API must have good design and d
 
 ### API Documentations
 
-When we are talking about API docs, actualy we need to provide more than just API references. Developers expect:
+When we are talking about API docs, actually we need to provide more than just API references. Developers expect:
 
 - Reference documentations
 - Getting Started guide
@@ -94,7 +94,7 @@ When we are talking about API docs, actualy we need to provide more than just AP
 
 While API reference explains every call in the API and parameter, values, etc., other types of docs often provides step-by-step instructions, and copy-and-pasteable code samples, including *Hello World*.
 
-A rule of thumb of writing these docs is keep everything simple in plain English. Complex docs don't impress your fellow engineers, but rather repell them. The basic tutorial should be short and simple too, but if you want to explore your creativity like I do, you should provide supplimental tutorials beyond your API docs- Blog, Demo, Showcase, etc.
+A rule of thumb of writing these docs is keep everything simple in plain English. Complex docs don't impress your fellow engineers, but rather repel them. The basic tutorial should be short and simple too, but if you want to explore your creativity like I do, you should provide supplemental tutorials beyond your API docs- Blog, Demo, Showcase, etc.
 
 ### Creative Contents for Developers
 
@@ -126,7 +126,7 @@ I created [this Johnny-Five video](https://www.youtube.com/watch?v=sC72DCxQrcU) 
 
 There are more things I try to keep in mind for good DX-
 
-- Publish date should be included, especialy because a dev year is like a dog year, where things get outdated pretty quick.
+- Publish date should be included, especially because a dev year is like a dog year, where things get outdated pretty quick.
 - No pushy marketing- obnoxious "Sign up now!!!" buttons and popups annoy devs away.
 - Docs and tuts need to have good browsing experiences just like web pages. Always link to references and related pages.
 - Don't PDF everything. Docs and tuts for developers are not white papers.
@@ -169,9 +169,9 @@ I sometimes conduct brainstormings. This is quite effective to generate creative
 
 ![brainstorming](/assets/images/articles/2016/08/dx-brainstorm.jpg)
 
-This photo was taken right ater the first brainstorming session was done at my previous work. After the session, we sorted the ideas in category and feasibility.
+This photo was taken right after the first brainstorming session was done at my previous work. After the session, we sorted the ideas in category and feasibility.
 
-Sure, this does not look like your typical Developer Relations meeting, but I have successfuly delivered a lot of good use-cases and tutorials and articles around them. After social media has picked up, the awareness of the virtualy unknown company and the products went up.
+Sure, this does not look like your typical Developer Relations meeting, but I have successfully delivered a lot of good use-cases and tutorials and articles around them. After social media has picked up, the awareness of the virtually unknown company and the products went up.
 
 ## Diversity and Inclusiveness
 
@@ -179,7 +179,7 @@ The majority of developers may be male and understand English, but if you are ta
 
 Inclusivity typically means not to exclude any groups of gender (expression), race, ethnicity, disability, sexual orientation, etc. I am not going to talk too much about the importance of diversity in a workplace in this article, however, I strongly believe when you work at a diverse team, you can definitely reach out more developers, especially because people in general tend to trust somebody who they feel related to. In fact, many of my "fans" are minorities- women, immigrants, speaking English as a second language, etc. (It is very flattering when people tell/tweet/email me they are fan of my works!)
 
-Especially when somebody in your team speak/write something other than English, it would be a huge advantage. I do speak and write Japanese fluently, and in numerous occations, I have helped sales and other teams when the companies have Japanese clients. I have written blog posts, and spoken at conferences in Tokyo as well. My conference videos and slides on [Slideshare](https://slideshare.net) have reached out far larger audiences. I can clearly tell you that it's not easy for you to get into Asian markets without somebody who knows the languages and cultures well!
+Especially when somebody in your team speak/write something other than English, it would be a huge advantage. I do speak and write Japanese fluently, and in numerous occasions, I have helped sales and other teams when the companies have Japanese clients. I have written blog posts, and spoken at conferences in Tokyo as well. My conference videos and slides on [Slideshare](https://slideshare.net) have reached out far larger audiences. I can clearly tell you that it's not easy for you to get into Asian markets without somebody who knows the languages and cultures well!
 
 Even if your team has no other multi-lingual people or simple has no time to translate, when your organization has successfully support international developers, the community helps you.
 
