@@ -44,6 +44,7 @@ Yes, I am suggesting Developer Experience *is* a type of User Experience!
 This is a good example of how not to design- At a gas station, you've got a gas pump looks like this, how do you react?
 
 ![Local Gas Pump by Jared Spool](/assets/images/articles/2016/08/gas-pump.jpg)
+
 *(Photo credit: https://flic.kr/p/5ckBZq by Jared Spool. CC-BY-SA)*
 
 Typically, when a user face such bad user experience, the reactions would be:
