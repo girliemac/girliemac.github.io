@@ -14,7 +14,7 @@ categories:
 
 ![Slack HTTP Status Cats icons](/assets/images/articles/2016/10/slack-httpstatuscats-icons.png)
 
-It was raining on a few weekends ago, instead of binge-watch some Netflix shows I decided to do some small project, and wrote the [HTTP Status Cats command for Slack](http://www.girliemac.com/slack-httpstatuscats/). Basically, I made my [HTTP cats](http://http.cat) (that gave myself a 15 minutes of fame in 2011) into a slash command for [Slack](https://slack.com)- you can simply type `/httpstatus` followed by a status code (e.g. `404`) on Slack chat and get the status description with the cat pics. 
+It was raining on a few weekends ago, instead of binge-watching some Netflix shows I decided to do some small project with the Conversational UI / Chatbot, and wrote the [HTTP Status Cats command for Slack](http://www.girliemac.com/slack-httpstatuscats/)! Basically, I made my [HTTP cats](http://http.cat) (that gave myself a 15 minutes of fame in 2011) into a slash command for [Slack](https://slack.com), where can simply type `/httpstatus` followed by a status code (e.g. `404`) on Slack chat and get the status description with the cat pics. 
 
 ![HTTP Status Cats Slack bot](http://www.girliemac.com/slack-httpstatuscats/public/images/slack-httpstatuscats.gif)
 
@@ -134,7 +134,7 @@ The answer to the correct command from the user will be displayed publicly by se
 
 This response will look like this on Slack:
 
-[screenshot here slack-command.png]
+![Slack command public message](/assets/images/articles/2016/10/slack-command.png)
 
 In this example, I am using two parts in the response; `text` and `attachments`, which is an additional field displayed within the gray border, where I include an image.
 
@@ -142,7 +142,7 @@ Of course you can display text and change the border color in the attachment if 
 
 Please note that in this code sample above, I hard-code the text and image URL, but in [my actual code](https://github.com/girliemac/slack-httpstatuscats), I keep all text strings in a separated file, and look it up if the user query matches. If not, display an error message privately.
 
-[screenshot slack-command-private.png]
+![Slack command private message](/assets/images/articles/2016/10/slack-command-private.png)
 
 Now, run the node code, then test your command on Slack client!
 
@@ -166,7 +166,7 @@ Now you need to register for your app and get your API keys.
 
 First, go to [https://api.slack.com/apps](https://api.slack.com/apps), and click the **Create an App** button.
 
-![Slack - Creat App](/assets/images/articles/2016/10/slack-create-app.png)
+![Slack Create App](/assets/images/articles/2016/10/slack-create-app.png)
 
 You can fill out the rest of the form later. The App config may be a bit confusing because there are multiple parts (and you may not even notice everything first). For a slash command bot, you need to fill out at least these sections:
 
@@ -214,7 +214,7 @@ $ nf start
 
 Slack uses [OAuth 2.0](https://oauth.net/2/) for a user authentication. You can read the [grant flow](https://api.slack.com/docs/oauth) on the Slack doc, but you actually don't need to implement the whole OAuth mechanism in your app when you use the [Slack Button](https://api.slack.com/docs/slack-button) to authenticate your users. The diagram shows below shows what you need to do, and I took this from the Slack API doc and modified:
 
-![OAuth with Slack](/assets/images/articles/2016/10/diagram slack-auth.gif)
+![OAuth with Slack](/assets/images/articles/2016/10/slack-oauth.gif)
 
 Basically, what you are going to do are:
 
@@ -229,7 +229,7 @@ When I was reading the Slack docs, I didn't notice there was a button generator 
 
 First, you need to set up a static web page. It can be a part of your node app, or separated. I made it independently from my node app, and host it on [GitHub Pages](http://www.girliemac.com/slack-httpstatuscats/).
 
-Then go to https://api.slack.com/docs/slack-button, scroll to **Add the Slack button** to generate your button. Make sure to check **Commands** for the scope.
+Then go to [https://api.slack.com/docs/slack-button](https://api.slack.com/docs/slack-button), scroll to **Add the Slack button** to generate your button. Make sure to check **Commands** for the scope.
 
 ![Slack button](/assets/images/articles/2016/10/slack-generate-button.png)
 
@@ -241,7 +241,7 @@ If you want to do the optional API call to get the team info (step 4), you need 
 
 Notice the scope- along with `commands`, add `team:read` (Escape the `:` as `%3A`). You can learn more about [OAuth scopes on the Slack API docs](https://api.slack.com/docs/oauth-scopes).
 
-![Slack button](https://platform.slack-edge.com/img/add_to_slack)
+![Slack button](https://platform.slack-edge.com/img/add_to_slack@2x.png)
 
 #### Issuing Token
 
