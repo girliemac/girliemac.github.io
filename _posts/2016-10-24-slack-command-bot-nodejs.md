@@ -241,7 +241,7 @@ If you want to do the optional API call to get the team info (step 4), you need 
 
 Notice the scope- along with `commands`, add `team:read` (Escape the `:` as `%3A`). You can learn more about [OAuth scopes on the Slack API docs](https://api.slack.com/docs/oauth-scopes).
 
-![Slack button](https://platform.slack-edge.com/img/add_to_slack@2x.png)
+![Slack button](https://platform.slack-edge.com/img/add_to_slack.png)
 
 #### Issuing Token
 
@@ -308,8 +308,10 @@ Make sure to set up your env vars (where you set in your .env file) with the `he
 
 Once you are done with the deployment, go back to your Slack App setting page to change the **OAuth & Permission** URL from your ngrok URL to the Heroku URL.
 
-![Hurray](/assets/images/articles/2016/10/slack-worked.png)
+
 
 As you see, writing a Slack slash command itself is easy, but to figuring out the whole process to make the bot available to everybody was a bit pain for me. I spent most of my time reading the docs to just figuring out, and spend far less for coding.
 
 So I hope my writing was helpful for you.
+
+![Hurray](/assets/images/articles/2016/10/slack-worked.png)
