@@ -47,9 +47,9 @@ You can skip most of the field for now, but you must enter the (1) Command, (2) 
 
 Once you enter them correctly, you should see the "Your settings have been saved!" message on top of the screen for a few seconds.
 
-For the **URL**, I am using [grok](https://ngrok.com) URL, which serves my localhost to a public URL. You can just put your localhost URL such as `http://localhost:3000` there but I use ngork to test OAuth later.
+For the **URL**, I am using a temporary URL from [ngrok](https://ngrok.com/), which serves my localhost to a public URL. You can probably just put your localhost URL such as `http://localhost:3000.`
 
-#### Using ngrok
+#### Optional: Using ngrok
 
 If you wish to use ngrok for your development too, download ngrok from https://ngrok.com, run it on terminal:
 
@@ -65,7 +65,7 @@ Now you’ve got a ngrok URLs for your local server. In this case, localhost:300
 
 How it works is that when a user trigger the slash command from Slack client's interface, the message will be sent to the URL via `HTTP POST` (or `GET` if you specified in your config).
 
-Basically, when you receive a request, which looks like:
+When you receive a request from your user, for instance, `/httpstatus 302`, the data that will be posted to your URL looks like:
 
 ```bash
 command=/httpstatus
@@ -74,7 +74,7 @@ response_url=https://hooks.slack.com/commands/1234/5678
 ...
 ```
 
-Your bot gives a response for the command, `/httpstatus 404` with an answer. In this case the bot will answer with the description of status code 404 with a [picture of a cat](https://http.cat/404).
+Your bot gives a response for the command, `/httpstatus 302` with an answer. In this case the bot will answer with the description of status code 302 with [a cat picture](https://http.cat/302.
 
 Now. let's write the response with Node.js using Express.
 
