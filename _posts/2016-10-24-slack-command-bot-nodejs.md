@@ -39,9 +39,11 @@ In Slack's official term, what you are going to do is called [Custom Integration
 
 Sign in to your Slack account and choose your command at [my.slack.com/services/new/slash-commands](https://my.slack.com/services/new/slash-commands). In my case, I entered `/httpstatus` and hit the **Add Slash Command Integration** button to go to the next page.
 
-You will see the Outgoing payload data with a token etc, but you don't need to worry about this in this moment. Just go ahead and fill out the rest of the fields. The screenshot is an example.
+You will see the Outgoing payload data with a token etc, but you don't need to worry about this in this moment. Just go ahead and fill out some of the fields. 
 
 ![Slack config](/assets/images/articles/2016/10/slack-config-custom-integration.png)
+
+You can skip most of the field for now, but you must enter the (1) Command, (2) URL, and make sure the (3) Method is POST.
 
 Once you enter them correctly, you should see the "Your settings have been saved!" message on top of the screen for a few seconds.
 
@@ -136,7 +138,7 @@ This response will look like this on Slack:
 
 ![Slack command public message](/assets/images/articles/2016/10/slack-command.png)
 
-In this example, I am using two parts in the response; `text` and `attachments`, which is an additional field displayed within the gray border, where I include an image.
+In this example, I am using two parts in the response; (1) `text` and (2) `attachments`, which is an additional field displayed within the gray border, where I include an image.
 
 Of course you can display text and change the border color in the attachment if you want. To customize the message format, see [Basic message formatting](https://api.slack.com/docs/message-formatting) on Slack API docs.
 
@@ -218,9 +220,9 @@ Slack uses [OAuth 2.0](https://oauth.net/2/) for a user authentication. You can 
 
 Basically, what you are going to do are:
 
-1. Set up a web page with the button that passes some params to Slack. *(User: After clicking the button, Slack redirects the user to authenticate)*.
-2. After Slack sends your node app a temporary `code` which expires in 10 min, exchange the authorization code for an access token using the [`oauth.access`](https://api.slack.com/methods/oauth.access) API.
-3. The auth process is done when your node app receives 200 OK. 
+1. Set up a web page with the button that passes some params to Slack. *(User: After clicking the button, Slack redirects the user to authenticate)*. 
+2. Your node app will receive a temporary `code` from Slack via `GET`. The temp code expires in 10 min. 
+3. Exchange the authorization code for an access token using the [`oauth.access`](https://api.slack.com/methods/oauth.access) API by `POST`ing. The auth process is done when your node app receives 200 OK. 
 4. Optionally, use the `token` to call another API to get the team name, so that you can redirect the user to the team URL, https://team-name.slack.com right after the auth is done.
 
 When I was reading the Slack docs, I didn't notice there was a button generator on Slack API page, so I started implementing by myself with Passport (Node.js OAuth middleware). But later I realized that  authentication with the button!
