@@ -32,7 +32,7 @@ There are two major parts:
 
 My step-by-step instruction uses Node.js, so if you'd like to follow the how-to, make sure [Node.js](https://nodejs.org) is installed on your machine.
 
-[The source code](https://github.com/girliemac/fb-apiai-bot-demo) is on GitHub. I have deployed to Heroku, however, Facebook doesn't allow the bot to interact with non-admin/developers/testers until I submit the app to Facebook, so you can't try the live demo. I am planning to extend the bot and submit to Facebook for approval eventually.
+[The source code](https://github.com/girliemac/fb-apiai-bot-demo/tree/tutorial-01) (on *tutorial-01* branch) is on GitHub. I have deployed to Heroku, however, Facebook doesn't allow the bot to interact with non-admin/developers/testers until I submit the app to Facebook, so you can't try the live demo. I am planning to extend the bot and submit to Facebook for approval eventually.
 
 ## 1. Developing a Facebook Messenger App
 
