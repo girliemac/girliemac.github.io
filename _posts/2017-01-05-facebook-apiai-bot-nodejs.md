@@ -19,7 +19,7 @@ Hey, happy new year!!!
 
 Previously, I created a [HTTP Status Cats bot for Slack](http://www.girliemac.com/slack-httpstatuscats/) (and its tutorial on [Medium](https://medium.com/@girlie_mac/creating-a-slack-command-bot-from-scratch-with-node-js-distribute-it-25cf81f51040#.12dzr1mx1)), and this time I tried with **Facebook Messenger** with some interesting 3rd party APIs, and I decide to give **API.ai** a try.
 
-As you may have heard of, API.ai, which recently aquired by Google, provides a conversational platform for natural language processing and it allows us to cretate bots easily.
+As you may have heard of, API.ai, which recently acquired by Google, provides a conversational platform for natural language processing and it allows us to create bots easily.
 
 Writing apps with the services aren't hard, however it requires some time reading the docs to figure out how to set them up, so I would like to share my experiences as this tutorial so hopefully you can write your bot in less time.
 
@@ -56,7 +56,7 @@ When you start ngrok, it will display a public URL of your tunnel in the termina
 
 ### Writing a Webhook with Express.js
 
-Create your app directry and set up your Node.js app:
+Create your app directory and set up your Node.js app:
 
 ```bash
 $ npm init
@@ -124,13 +124,13 @@ $ node webhooks.js
 
 ### Setting Up a Facebook App
 
-You need a **Facebook Page** to set up your chat bot. Create one from [[facebook.com/pages/create](https://www.facebook.com/pages/create)]. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click **Get Started**.
+You need a **Facebook Page** to set up your chat bot. Create one from [facebook.com/pages/create](https://www.facebook.com/pages/create)]. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click **Get Started**.
 
 ![FB Page](/assets/images/articles/2017/01/create-a-page.png)
 
 Then create an app at [developers.facebook.com/quickstarts](https://developers.facebook.com/quickstarts/?platform=web).
 
-Give it a name and click the botton, then fill out the required info:
+Give it a name and click the button, then fill out the required info:
 
 ![Create a FB App](/assets/images/articles/2017/01/create-an-app.png)
 
@@ -142,7 +142,7 @@ Click **Add Product** from the left menu, then choose **Messenger**. Click Get S
 
 ![Create a FB App](/assets/images/articles/2017/01/create-an-app-add-product.png)]
 
-At the **Token Generation**, (1) choose the page you just created from the dropdown menu, and it will generte a token (2) that you will need to include in your node code.
+At the **Token Generation**, (1) choose the page you just created from the dropdown menu, and it will generate a token (2) that you will need to include in your node code.
 
 Then, at the **Webhooks**, (3) click the **Setup Webhooks** button:
 
@@ -156,7 +156,7 @@ Click the **Verify and Save**. If you get a red icon with **x** at the Callback 
 
 ### Writing a Super Simple Chat Bot
 
-Install **request** to `POST` messeges:
+Install **request** to `POST` messages:
 
 ```bash
 $ npm install request --save
@@ -189,7 +189,7 @@ function sendMessage(event) {
 
 Where you see the `PAGE_ACCESS_TOKEN`, use the generated token.
 
-Try running the code. This acts as a very simple bot, which interact the Messenger platform to receive a message and echo the message as the reply- Go to [https://m.me/YOUR-PAGE] and start a conversation. If your the simple bot works correctly, it just replies the exatly what you send:
+Try running the code. This acts as a very simple bot, which interact the Messenger platform to receive a message and echo the message as the reply- Go to [https://m.me/YOUR-PAGE] and start a conversation. If your the simple bot works correctly, it just replies the exactly what you send:
 
 ![Simple echo bot](/assets/images/articles/2017/01/facebook-basic.gif)
 
@@ -215,9 +215,9 @@ Make sure to click the **Save** button on the top every time you make changes.
 
 ### Making "Small Talk" with your Messenger Bot
 
-Instead of having your bot just replie with the echo, let's give it the API.ai's Small Talk feature. This gives your bot an ability to have simple conversations.
+Instead of having your bot just echo you, let's give it the API.ai's Small Talk feature. This gives your bot an ability to have simple conversations.
 
-From the left menu (if the menu is not visible, click the "Humberger menu icon" at the top left to open), click **Domains**, then activate the **Small Talk**.
+From the left menu (if the menu is not visible, click the "Hamburger menu icon" at the top left to open), click **Domains**, then activate the **Small Talk**.
 
 ![Create a FB App](/assets/images/articles/2017/01/apiai-small-talk.png)
 
@@ -408,9 +408,9 @@ Let's test your bot from Messenger:
 
 Yay, now you have your own Messenger bot that chats and answer weather info!
 
-If you deploy your bot, make sure to change yout webhook endpoints on both Facebook Developer app setting and API.ai Fulfillment.
+If you deploy your bot, make sure to change your webhook endpoints on both Facebook Developer app setting and API.ai Fulfillment.
 
-I hope you enjoyed the article. Now you can tailor your intents, add more features, and use the training feature for better results to mske your bot more interesting!
+I hope you enjoyed the article. Now you can tailor your intents, add more features, and use the training feature for better results to make your bot more interesting!
 
 ### By the way...
 
