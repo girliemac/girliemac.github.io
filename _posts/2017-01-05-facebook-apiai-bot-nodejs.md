@@ -124,7 +124,7 @@ $ node webhooks.js
 
 ### Setting Up a Facebook App
 
-You need a **Facebook Page** to set up your chat bot. Create one from [facebook.com/pages/create](https://www.facebook.com/pages/create)]. Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click **Get Started**.
+You need a **Facebook Page** to set up your chat bot. Create one from [facebook.com/pages/create](https://www.facebook.com/pages/create). Choose a category, and select a sub category from the dropdown and fill out the required filed. Then click **Get Started**.
 
 ![FB Page](/assets/images/articles/2017/01/create-a-page.png)
 
@@ -140,7 +140,7 @@ Once your app is created, follow the steps to configure or skip it to your Dashb
 
 Click **Add Product** from the left menu, then choose **Messenger**. Click Get Started.
 
-![Create a FB App](/assets/images/articles/2017/01/create-an-app-add-product.png)]
+![Create a FB App](/assets/images/articles/2017/01/create-an-app-add-product.png)
 
 At the **Token Generation**, (1) choose the page you just created from the dropdown menu, and it will generate a token (2) that you will need to include in your node code.
 
@@ -149,6 +149,8 @@ Then, at the **Webhooks**, (3) click the **Setup Webhooks** button:
 ![Create a FB App](/assets/images/articles/2017/01/create-an-app-messenger.png)
 
 In the dialog, fill out the (1) **Callback URL** with your ngrok URL, (2) the random string for validation (the one you've specified in your 'GET' route in the `webhook.js`), then (3) check **messages**.
+
+![Create a FB App](/assets/images/articles/2017/01/create-an-app-messenger-webhook.png)
 
 Click the **Verify and Save**. If you get a red icon with **x** at the Callback URL, it means the URL is not validated- either the URL is wrong or your node code is not properly running. Otherwise, you are ready to get back to code.
 
@@ -229,7 +231,7 @@ Try the **Console** at the right hand side. You can either speak or type to test
 
 ![Create a FB App](/assets/images/articles/2017/01/apiai-console.png)
 
-Let's stop for now and use this in your bot. You can always come back here to customize the conversations.
+Now let's use this feature in your bot. You can always come back here to customize the conversations.
 
 
 
@@ -312,7 +314,7 @@ Now, let's test your bot. Run the node code, and try sending some messages. If e
 
 Awesome.
 
-### Making the Bot to Fetch Weather Forecast
+### Making the Bot Tell You Weather Condition
 
 When you activate the Small Talk from the **Domains**, you may have noticed there are more presets like Weather and Flight Schedules, etc. To use these services, it looks like you need to send inquiry to their sales peeps.
 
@@ -348,11 +350,11 @@ Major city names have been provided already so you do not need to create them, h
 
 Create some more contexts:
 
-![api.ai intents](/assets/images/articles/2017/01/apiai-intents03.png)
+![api.ai intents](/assets/images/articles/2017/01/apiai-intents-03.png)
 
 Then (1) scroll down to **Action**, and enter "weather". You need this action name on your node code later. Then (2) at **Response**, enter a default response. Assuming a user ask about the weather without specifying a city, enter something like "Which city?"
 
-![api.ai intents](/assets/images/articles/2017/01/apiai-intents04.png)
+![api.ai intents](/assets/images/articles/2017/01/apiai-intents-04.png)
 
 Save the Intents, and go to **Fulfillment** from the menu. Enable the webhook, and enter the ngrok URL with a route, let's call it `/ai` and Save:
 
@@ -385,26 +387,21 @@ app.post('/ai', (req, res) => {
         return res.json({
           speech: msg,
           displayText: msg,
-          source: 'weather'
-        });
+          source: 'weather'});
       } else {
         return res.status(400).json({
           status: {
             code: 400,
-            errorType: 'I failed to look up the city name.'
-          }
-        });
-      }
-    })
+            errorType: 'I failed to look up the city name.'}});
+      }})
   }
-});
 ```
 
 Make sure to return is as JSON that api.ai will read from this webhook.
 
 Let's test your bot from Messenger:
 
-![FB Messenger weather bot](/assets/images/articles/2017/01/facebook-apiai-weather.gif)]
+![FB Messenger weather bot](/assets/images/articles/2017/01/facebook-apiai-weather.gif)
 
 Yay, now you have your own Messenger bot that chats and answer weather info!
 
