@@ -34,7 +34,8 @@ My step-by-step instruction uses Node.js, so if you'd like to follow the how-to,
 
 [**The source code**](https://github.com/girliemac/fb-apiai-bot-demo/tree/tutorial-01) (on *tutorial-01* branch) is on GitHub. 
 
-**Live Demo** - I have deployed to Heroku, however, Facebook doesn't allow the bot to interact with public until the bot is approved. I just submitted as of the evening of Jan 6, so stay tuned. Once approved, you can scan the code (a sort of like a QR code), also search @TomomiBot on Messenger.
+*(Updated on Jan 9: The bot has been approved by Facebook so you can try the bot!) *
+**Live Demo** -  Scan the code below (the one looks sort of like a QR code) from the Messenger App on mobile, or access on m.me/tomomiBot from browser.
 
 ![Facebook scan code](https://raw.githubusercontent.com/girliemac/fb-apiai-bot-demo/master/public/images/messenger-scan-code.png)
 
