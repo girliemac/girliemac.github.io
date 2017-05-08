@@ -172,6 +172,8 @@ $ npm install request --save
 Continue with your `webhook.js`, let's implement `sendMessage()` that simply replies the sender an echo to just test your Messenger bot:
 
 ```javascript
+const request = require('request');
+
 function sendMessage(event) {
   let sender = event.sender.id;
   let text = event.message.text;
@@ -257,8 +259,7 @@ You need your API.ai API key and API secret to use the service with your bot. Fr
 And go back to your `webhook.js` and initialize `apiai` with the API key:
 
 ```javascript
-const apiai = require('apiai');
-const app = apiai(CLIENT_ACCESS_TOKEN);
+const apiaiApp = require('apiai')(CLIENT_ACCESS_TOKEN);
 ```
 
 Refer the usage on its [npm doc](https://www.npmjs.com/package/apiai). It is pretty simple- you just pass a text to API.ai, and do something when you get the response (the `response` event).
@@ -388,7 +389,7 @@ app.post('/ai', (req, res) => {
     request.get(restUrl, (err, response, body) => {
       if (!err && response.statusCode == 200) {
         let json = JSON.parse(body);
-       json.weather[0].description + ' and the temperature is ' + json.main.temp + ' ℉';
+        let msg = json.weather[0].description + ' and the temperature is ' + json.main.temp + ' ℉';
         return res.json({
           speech: msg,
           displayText: msg,
