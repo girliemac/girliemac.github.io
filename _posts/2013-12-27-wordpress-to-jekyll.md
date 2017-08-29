@@ -11,7 +11,7 @@ Last year during holidays, I knetted a <a href="http://www.flickr.com/photos/705
 
 ## Why
 
-Wordpress is great, and has been working wonderfully for me. However, I decided to make the change becasue:
+Wordpress is great, and has been working wonderfully for me. However, I decided to make the change because:
 
 1. Jekyll allows [markdown][markdown]. I have been annoyed writing HTML for my blog. 
 2. The latest Jekyll comes with [Pygment][pygment] syntax highlighter. Writing code snipets is easier in markdown (no need to escape HTML tages, yay!), and the code samples are prettified with Pygment.
@@ -157,7 +157,7 @@ Login on Disqus, and copy the *Universal Embed Code* from [Disqus][embed]. (Once
 
 Paste the code into where you want the comments to be displayed in `_layouts/post.html`. 
 
-Once you deploy, the Disqus comment form along with the old commnets should be appeared on the new blog!
+Once you deploy, the Disqus comment form along with the old comments should be appeared on the new blog!
 
 [embed]: http://docs.disqus.com/developers/universal/
 
