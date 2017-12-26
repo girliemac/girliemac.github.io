@@ -7,15 +7,15 @@ categories:
 ---
 ![Jekyll on Github](/assets/images/articles/2013/12/jekyll.png "Jekyll on Github")
 
-Last year during holidays, I knetted a <a href="http://www.flickr.com/photos/70561195@N00/8314700407/in/photolist-dEK1Kz-dEK4cT" target="_blank">NyanCat scarf</a>. As this year's project, I finally migrated my Wordpress blog to [Jekyll][jekyll], and host on Github Pages to say good-bye to PHP and web hosting server.
+Last year during holidays, I knitted a <a href="http://www.flickr.com/photos/70561195@N00/8314700407/in/photolist-dEK1Kz-dEK4cT" target="_blank">NyanCat scarf</a>. As this year's project, I finally migrated my Wordpress blog to [Jekyll][jekyll], and host on Github Pages to say good-bye to PHP and web hosting server.
 
 ## Why
 
 Wordpress is great, and has been working wonderfully for me. However, I decided to make the change becasue:
 
-1. Jekyll allows [markdown][markdown]. I have been annoyed writing HTML for my blog. 
+1. Jekyll allows [markdown][markdown]. I have been annoyed writing HTML for my blog.
 2. The latest Jekyll comes with [Pygment][pygment] syntax highlighter. Writing code snipets is easier in markdown (no need to escape HTML tages, yay!), and the code samples are prettified with Pygment.
-3. [Github][gh] offers free hosting, and of course, having version control is awesome. 
+3. [Github][gh] offers free hosting, and of course, having version control is awesome.
 4. More control using command line is nice. I can use [Grunt][grunt] to automate tasks, including build process and minifying code, too.
 
 [jekyll]: http://jekyllrb.com/ "Jekyll"
@@ -38,7 +38,7 @@ Here's a list of the steps that I actually went through.
 I am on Mac OS 10.7.5 (still!), and WordPress 3.7 by the way. Read on if you would like to follow my steps-
 
 
-## Before leaving WordPress 
+## Before leaving WordPress
 
 ### Setup Disqus
 
@@ -48,7 +48,7 @@ First, sign up and register the site with Disqus at [disqus.com/admin/create][di
 
 Go to your WordPress Admin page. Then, go to **Plugins**, serach for **Disqus Comment System plugin** and install it, then activate.
 
-Once activated, check the Disqus Setting to make sure your Disqus account is connected to your WP blog. 
+Once activated, check the Disqus Setting to make sure your Disqus account is connected to your WP blog.
 
 ![Screenshot](/assets/images/articles/2013/12/wp-disqus.png "screenshot")
 
@@ -66,17 +66,17 @@ Go back to your WP Admin page to see if all the comments are available in Disqus
 [disqus]: http://disqus.com/admin/create/
 [discuss-import]: http://import.disqus.com
 
-## Leaving WordPress 
+## Leaving WordPress
 
 ### Export All WP Contents
 
 Fisrt, install **WordPress to Jekyll Exporter** manually.
- 
-   1. Download the zipped source code from the [github][exporter] page. 
+
+   1. Download the zipped source code from the [github][exporter] page.
    2. FTP the upzipped source into the folder in `/wp-content/plugins/`
    3. Activate it in the WP Admin page.
-   
-Then go to **Tools > Export to Jekyll** and download a a zip file. 
+
+Then go to **Tools > Export to Jekyll** and download a a zip file.
 
 ![Screenshot](/assets/images/articles/2013/12/wp-download.png "screenshot")
 
@@ -122,7 +122,7 @@ Alternatively, you can use some pre-designed templates. Go to [jekyllthemes.org]
 
 Unzip the `jekyll-export.zip` you exported off your WordPress. The `_post` filder should contain all blog posts in markdown, and `wp_content` has images. Other static pages should have its own folder as well.
 
-Copy them into your new `yourname.github.io` (or whatever you named) folder. 
+Copy them into your new `yourname.github.io` (or whatever you named) folder.
 You may want to manually tweak the  `_config.yml` file, or merge the exported `_config.yml` file with the one comes with the theme you downloaded, rather than just overwriting.
 
 To use the *Pygments* syntax highlighter, add this line in your  `_config.yml`.
@@ -155,7 +155,7 @@ To include Disqus comments and the legacy comments ported from old WordPress is 
 
 Login on Disqus, and copy the *Universal Embed Code* from [Disqus][embed]. (Once logged in, the `disqus_shortname` should be already generated for you. Otherwise, add it manually.)
 
-Paste the code into where you want the comments to be displayed in `_layouts/post.html`. 
+Paste the code into where you want the comments to be displayed in `_layouts/post.html`.
 
 Once you deploy, the Disqus comment form along with the old commnets should be appeared on the new blog!
 
@@ -174,7 +174,7 @@ $ sudo npm install -g grunt-cli
 
 [node]: http://nodejs.org/
 
-Grunt is a JavaScript tast runner that you can automate some repetitive tasks. 
+Grunt is a JavaScript tast runner that you can automate some repetitive tasks.
 
 Useful grunt plugins for Jekyll can be:
 
@@ -184,7 +184,7 @@ Useful grunt plugins for Jekyll can be:
 * `grunt-contrib-imagemin` to optimize images
 * `grunt-shell-spawn` to include `jekyll build` command
 * `grunt-contrib-watch` to monitor if specified files are modified run tasks
-etc. 
+etc.
 
 For more information, go to [gruntjs.com][grunt].
 
@@ -192,7 +192,7 @@ For more information, go to [gruntjs.com][grunt].
 
 So long, my web server, I port everything on my github for free!
 
-Some files and directries don't need to be pushed to github. Put `_sites` and `node_modules` if using Grunt in `.gitignore` file. (and of course, `.DS_Store` if you are a Mac user! ugh!) 
+Some files and directries don't need to be pushed to github. Put `_sites` and `node_modules` if using Grunt in `.gitignore` file. (and of course, `.DS_Store` if you are a Mac user! ugh!)
 
 Commit and push your Jekyll site to github. You don't need to create a `gh-pages` branch, when you name the repo with `yourname.github.io`.
 
