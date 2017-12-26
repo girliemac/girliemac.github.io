@@ -1,8 +1,8 @@
 name: GirlieMac Blog
 short-name: GirlieMac.com
 description: Arbitrary Web and Mobile Writing by Tomomi Imura
-url: 
-domain: http://girliemac.com
+url:
+domain: https://girliemac.com
 permalink: /blog/:year/:month/:day/:title/
 disqus_shortname: girliemac
 markdown: kramdown
@@ -13,24 +13,23 @@ port: 4444
 owner:
   name: Tomomi Imura
   avatar: avatar.jpg
-  bio: "An Open Web advocate and front-end engineer, who loves everything mobile, and writes about HTML5, CSS, JS, UX, tech events, gadgets, etc. She unintentionally got 15min of fame by creating The HTTP Status Cats. Also, the opinions expressed here are solely her own and do not express the views or opinions of my employer."  
+  bio: "An Open Web advocate and front-end engineer, who loves everything mobile, and writes about HTML5, CSS, JS, UX, tech events, gadgets, etc. She unintentionally got 15min of fame by creating The HTTP Status Cats. Also, the opinions expressed here are solely her own and do not express the views or opinions of my employer."
   email: tomomi.i@gmail.com
   twitter: girlie_mac
-  facebook:       
-  github: girliemac  
-  stackexchange:  
+  facebook:
+  github: girliemac
+  stackexchange:
   linkedin: tomomi
-  instagram:      
-  flickr: girliemac   
-  tumblr:         
-  google_plus:
+  instagram:
   flickr: girliemac
+  tumblr:
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-2635445-1
-google_verify: I-NDFBl5t1P9fqHmRNZhwu8OOHmwW4HADPiOr_r16cE   
+google_verify: I-NDFBl5t1P9fqHmRNZhwu8OOHmwW4HADPiOr_r16cE
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -42,7 +41,7 @@ links:
   - title: Preso
     url: /presentations
   - title: My CodePen
-    url: http://codepen.io/girliemac
+    url: https://codepen.io/girliemac
     external: true
   - title: Nostalgia
     url: /nostalgia
