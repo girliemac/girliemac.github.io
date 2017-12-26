@@ -40,11 +40,13 @@ links:
     url: /blog
   - title: Preso
     url: /presentations
+  - title: Sketch Notes
+    url: /doodles
   - title: My CodePen
     url: https://codepen.io/girliemac
     external: true
-  - title: Nostalgia
-    url: /nostalgia
+ #- title: Nostalgia
+    #url: /nostalgia
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: My Presentations
-permalink: /presentations/index.html
-modified: 12-28-2013
+permalink: /presentations/
+modified: 12-26-2017
 ---
 
 I have been fortunate enough to be invited to speak at conferences and tech events in and out of San Francisco Bay Area.
@@ -14,6 +14,15 @@ I have most of my presentation slides hosted on [SlideShare](http://www.slidesha
 ### Videos of My Talks
 
 Some of my conference talks have been recorded and you can watch on YouTube etc.
+
+- DevXCon (San Francisco, CA) May 2017
+[YouTube](https://www.youtube.com/watch?v=4qucodmHNfs)
+
+- JS Kongress (Munich, Germany) November 2016
+[YouTube](https://www.youtube.com/watch?v=mVJQp3iii-U)
+
+- Nordic.js (Stockholm, Sweden) September 2016
+[YouTube](https://www.youtube.com/watch?v=AcDZfupBYdY)
 
 - NodePDX (Portland, Oregon) June 2016
 [YouTube](https://www.youtube.com/watch?v=8hIo3t4ajRM)
