@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="articles" itemscope itemtype="http://schema.org/WebPage">
+<body class="articles" itemscope itemtype="https://schema.org/WebPage">
 
 {% include _browser-upgrade.html %}
 
@@ -25,10 +25,10 @@
   <h1 itemprop="name">{{ page.title }}</h1>
 
 
-{% for category in site.categories %} 
+{% for category in site.categories %}
   <h2 id="{{ category[0] }}">#{{ category[0] | join: "/" }}</h2>
   <ul>
-    {% assign pages_list = category[1] %}  
+    {% assign pages_list = category[1] %}
 
     {% for node in pages_list %}
 	    {% if node.title != null %}
@@ -57,6 +57,6 @@
 </footer>
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>

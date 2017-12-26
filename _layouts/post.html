@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="article" itemscope itemtype="http://schema.org/WebPage">
+<body class="article" itemscope itemtype="https://schema.org/WebPage">
 
 {% include _browser-upgrade.html %}
 
@@ -16,27 +16,27 @@
 <header role="banner">
 </header>
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="https://schema.org/Blog">
   <div class="article-author-side">
   	<img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
     {% include _author-bio.html %}
     {% include _license.html %}
   </div>
-  
+
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <div class="headline-wrap">
       {% if page.date %}
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><i class="icon-calendar"></i> {{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
-      
+
       {% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}
       <h1 itemprop="name">{{ page.title }}</h1>
       <h2>{{ page.tagline }}</h2>
     </div><!--/ .headline-wrap -->
-    
+
     <div class="article-wrap" itemprop="text">
       {{ content }}
       <hr>
-      
+
       <!-- Pagination -->
       <ul class="pagination">
 	      {% if page.previous %}
@@ -50,40 +50,40 @@
 		  	<li class="next disabled"></li>
 	      {% endif %}
 	  </ul>
-	  
+
       <hr style="visibility:hidden;">
-      
+
       <!-- Categories -->
       {% unless page.categories == empty %}
 	  <ul class="categories">
 	      <li><i class="icon-drawer"></i></li>
 	      {% assign categories_list = page.categories %}
-	      
+
 	      {% if categories_list.first[0] == null %}
-		    {% for category in categories_list %} 
+		    {% for category in categories_list %}
 		    	<li data-size="{{ site.categories[category].size }}"><a href="/categories/#{{ category }}">
 		    		{{ category | join: "/" }}
 		    	</a></li>
 		    {% endfor %}
 		  {% else %}
-		    {% for category in categories_list %} 
+		    {% for category in categories_list %}
 		    	<li data-size="{{ category[1].size }}"><a href="/categories/#{{ category[0] }}">
 		    		{{ category[0] | join: "/" }}
 		    	</a></li>
 		    {% endfor %}
 		  {% endif %}
 	      {% assign categories_list = nil %}
-	  
+
 	  </ul>
-	  {% endunless %} 
-	  
+	  {% endunless %}
+
 	  <!-- Disqus -->
 	      <div id="disqus_thread" style="margin-top: 3em"></div>
 		    <script type="text/javascript">
 		        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		        var disqus_shortname = '{{site.disqus_shortname}}'; // required: replace example with your forum shortname
 				{% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';{% endif %}
-				
+
 		        /* * * DON'T EDIT BELOW THIS LINE * * */
 		        (function() {
 		            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -93,18 +93,18 @@
 		    </script>
 		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">
-	  
+
     </div><!-- /.article-wrap -->
   </article>
 </div><!-- /#main -->
 
-<footer> 
+<footer>
   <small class="copyright">
     {% include _footer.html %}
   </small>
 </footer>
 
-{% include _scripts.html %}	        
+{% include _scripts.html %}
 
 </body>
 </html>

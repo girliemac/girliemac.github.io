@@ -3,7 +3,7 @@
 		<a href="{{ site.url }}/index.html">{{ site.short-name }}</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
-		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+		<nav role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 		    <ul>
 		        {% for link in site.links %}
 				<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
