@@ -22,7 +22,7 @@
 {% if page.images %}
 {% assign thumb = page.images[0] %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ thumb }}">
+<meta name="twitter:image" content="{{ site.url }}/{{ thumb }}">
 {% else %}
 <meta name="twitter:card"  content="summary">
 <meta name="twitter:image" content="{{ site.url }}/assets/images/avatar.jpg">
