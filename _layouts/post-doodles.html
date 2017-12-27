@@ -25,43 +25,20 @@
 <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
   <h1 itemprop="name">{{ page.title }}</h1>
 
-
-{% for category in site.categories %}
-{% if category == "doodle" %}
+  {% assign tags = site.categories | split:&nbsp; %}
   <ul>
-    {% assign pages_list = category[1] %}
-
-    {% for node in pages_list %}
-	    {% if node.title != null %}
-	      {% if group == null or group == node.group %}
-          <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-            <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content }}{% endif %}</p>
-          </article>
-	      {% endif %}
-	    {% endif %}
-    {% endfor %}
-
-{% assign pages_list = nil %}
-{% assign group = nil %}
+      {% for tag in tags %}
+      {% if tag == "doodle" %}
+      <li>{{ tag }}</li>
+      <!-- <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content }}{% endif %}</p>
+      </article> -->
+      {% endif %}
+      {% endfor %}
   </ul>
-{% endif %}
-{% endfor %}
-
-
 </div><!-- /#index -->
 
-<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h1 itemprop="name">{{ page.title }}</h1>
-
-  {% for post in site.posts limit:5 %}
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-    <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-  </article>
-  {% endfor %}
-  <p><a href="{{ site.url}}/blog/">More...</a></p>
-</div><!-- /#index -->
 
 <footer>
   <small>
