@@ -39,7 +39,7 @@ Some of my conference talks have been recorded and you can watch on YouTube etc.
 - W3C Conf (San Francisco, CA) February 2013
 [YouTube](https://www.youtube.com/watch?v=3Afi-v-m_Gc)
 
-There are more. You can just google my name to find them, because I am not even sure how may of mytalks have beed recorded and posted!
+There are more. You can just google my name to find them, because I am not even sure how may of my talks have beed recorded and posted!
 
 ### TV appearance
 
