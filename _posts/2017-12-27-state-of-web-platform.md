@@ -2,7 +2,7 @@
 title: Notes from The State of Web Platform
 author: Tomomi Imura
 layout: post
-description: The state of Chrome and the Web Platform by Ben Galbraith and Dion Almaer at Chrome Dev Summit
+description: My sketchnotes from The state of Chrome and the Web Platform by Ben Galbraith and Dion Almaer at Chrome Dev Summit
 images:
   - /assets/images/articles/2017/12/state-of-web.jpg
 categories:

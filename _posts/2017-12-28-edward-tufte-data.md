@@ -2,7 +2,7 @@
 title: Notes from Presenting Data & Information course by Edward Tufte
 author: Tomomi Imura
 layout: post
-description: Learning fundamental design strategies for information displays including sentences, tables, diagrams, maps, charts, images, video, and data visualizations
+description: My sketchnotes from Presenting Data & Information course by Edward Tufte about fundamental design strategies for information displays
 images:
   - /assets/images/articles/2017/12/tufte-data-note-01.jpg
   - /assets/images/articles/2017/12/tufte-data-note-02.jpg
