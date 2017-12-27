@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
@@ -15,7 +15,7 @@ layout: none
 	  <name>{{ site.owner.name }}</name>
 	  <uri>{{ site.domain }}/</uri>
 	</author>
-	
+
 	{% for post in site.posts limit:20 %}
 	<entry>
 	  <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>

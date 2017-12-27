@@ -7,7 +7,7 @@
 {% include _head.html %}
 </head>
 
-<body class="articles" itemscope itemtype="https://schema.org/WebPage">
+<body class="page" itemscope itemtype="https://schema.org/WebPage">
 
 {% include _browser-upgrade.html %}
 
@@ -15,30 +15,34 @@
 
 <header></header>
 
-<div class="article-author-side">
-  <img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
-    {% include _author-bio.html %}
-    {% include _license.html %}
-</div>
 
+  <div class="article-author-side">
+    <img src="{{ site.url }}/assets/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }}">
+      {% include _author-bio.html %}
+      {% include _license.html %}
+  </div>
 
-<div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <h1 itemprop="name">{{ page.title }}</h1>
+  <div id="index" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <h1 itemprop="name">{{ page.title }}</h1>
 
-  {% assign tags = site.categories %}
-  <ul>
-      {% for tag in tags %}
-      {% if tag == "doodle" %}
-      <li>{{ tag }}</li>
-      <!-- <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-        <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p itemprop="text">{% if post.description %}{{ post.description }}{% else %}{{ post.content }}{% endif %}</p>
-      </article> -->
-      {% endif %}
-      {% endfor %}
-  </ul>
-</div><!-- /#index -->
+    {% for post in site.categories.doodle %}
+      <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <div class="article-wrap" itemprop="text">
+          <h2 itemprop="headline"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a></h2>
+          <p itemprop="text">
+            {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120  }}{% endif %}
 
+            {% for image in post.images %}
+            <p><img alt="preview image" src="{{ site.url }}{{ image }}"></p>
+            {% endfor %}
+
+            <p style="text-align: right"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">Read the post...</a></p>
+          </p>
+          <hr>
+        </div>
+      </article>
+    {% endfor %}
+  </div><!-- /#index -->
 
 <footer>
   <small>
