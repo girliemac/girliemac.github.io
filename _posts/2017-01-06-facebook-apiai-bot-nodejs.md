@@ -2,6 +2,9 @@
 title: Creating a Simple Facebook Messenger AI Bot with API.ai in Node.js
 author: Tomomi Imura
 layout: post
+description: My tutorial on how to build a Facebook Messenger bot
+images:
+  - /assets/images/articles/2017/01/cover-facebook-apiai-bot.png
 categories:
   - dev
   - bot
@@ -32,7 +35,7 @@ There are two major parts:
 
 My step-by-step instruction uses Node.js, so if you'd like to follow the how-to, make sure [Node.js](https://nodejs.org) is installed on your machine.
 
-[**The source code**](https://github.com/girliemac/fb-apiai-bot-demo/tree/tutorial-01) (on *tutorial-01* branch) is on GitHub. 
+[**The source code**](https://github.com/girliemac/fb-apiai-bot-demo/tree/tutorial-01) (on *tutorial-01* branch) is on GitHub.
 
 *(Updated on Jan 9: The bot has been approved by Facebook so you can try the bot!) *
 **Live Demo** -  Scan the code below (the one looks sort of like a QR code) from the Messenger App on mobile, or access on m.me/tomomiBot from browser.

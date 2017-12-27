@@ -2,6 +2,9 @@
 title: Filterous 2 Photo Manipulation Library is Released!
 author: Tomomi Imura
 layout: post
+description: an open-source Instagram-like image manipulation library for Javascript and node.js
+images:
+  - /assets/images/articles/2017/02/filterous-2.png
 categories:
   - dev
   - javascript
@@ -10,7 +13,7 @@ categories:
   - instagram
 ---
 
-![filterous-2](https://github.com/girliemac/filterous-2/blob/master/images/filterous-2.png?raw=true)
+![filterous-2](/assets/images/articles/2017/02/filterous-2.png)
 
 I recently released **Filterous 2**, an open-source Instagram-like image manipulation library for Javascript and node.js on [npm](https://www.npmjs.com/package/filterous).
 

@@ -2,6 +2,8 @@
 title: KittyCam - Building a Raspberry Pi Camera with Cat Face Detection in Node.js
 author: Tomomi Imura
 layout: post
+images:
+  - /assets/images/articles/2015/12/jamie-detected.png
 categories:
   - dev
   - raspberrypi
@@ -27,7 +29,7 @@ The software is written in Node.js, simply because JavaScript is the language I 
 
 This is the basic flow:
 
-1. Detect motion (Use Johnny-Five IR.Motion obj) 
+1. Detect motion (Use Johnny-Five IR.Motion obj)
 2. Take photos (Raspistill, command line tool)
 3. Cat facial detection (KittyDar)
 4. Store the photos in cloud storage (Cloudinary)
@@ -36,7 +38,7 @@ This is the basic flow:
 
 ![KittyCam flow](/assets/images/articles/2015/12/kittyCam-app.png "KittyCam flow")
 
-The hardware-software communication is done with [Johnny-Five](http://johnny-five.io/), open-source JavaScript robotics programming framework. I am using it to talk with a PIR sensor. When the sensor detect my cat (or any moving objects) nearby Raspberry Pi, it triggers the camera. 
+The hardware-software communication is done with [Johnny-Five](http://johnny-five.io/), open-source JavaScript robotics programming framework. I am using it to talk with a PIR sensor. When the sensor detect my cat (or any moving objects) nearby Raspberry Pi, it triggers the camera.
 
 Photos are taken using `raspistill` command line. One cool thing about Node.js is that you can execute commands by spawning child processes.
 
@@ -85,7 +87,7 @@ This doesn't require much of wiring. You can connect a camera and a PIR sensor d
 
 
 
-The photo below is my Pi enclosed in SmartiPi case: 
+The photo below is my Pi enclosed in SmartiPi case:
 ![RPi KittyCam](https://lh3.googleusercontent.com/o-XG7ZijXM_UXQHuYrDxC6mlTofyUzUCmHqNmr6oRYZk=w1346-h757-no "Rapsberry Pi KittyCam")
 
 
@@ -117,7 +119,7 @@ Once connected to your Pi, you can create files, code, and execute from the term
 
 ### Coding on Your Fave IDE on Mac
 
-I usually use **Sublime Text** to code, so I prefer doing so for coding on Pi as well. 
+I usually use **Sublime Text** to code, so I prefer doing so for coding on Pi as well.
 Here's what I do:
 
 First, download and install [Cyberduck](https://cyberduck.io) on Mac.
@@ -162,7 +164,7 @@ and install the package:
 $ sudo dpkg -i node_archive_armhf.deb
 ```
 
-Check if node is successfully installed. 
+Check if node is successfully installed.
 
 ```bash
 $ node -v
@@ -258,7 +260,7 @@ $ npm install johnny-five
 
 #### Install Raspi-io
 
-**Raspi-io** is a library to be used as an I/O plugin with Johnny-Five. You need to install this to use Johnny-Five on Raspbian. 
+**Raspi-io** is a library to be used as an I/O plugin with Johnny-Five. You need to install this to use Johnny-Five on Raspbian.
 
 ```bash
 $ npm install raspi-io
@@ -270,7 +272,7 @@ This step is optional, if you don't want to create a web interface to stream the
 
 #### Install PubNub
 
-For realtime live-updating the web interface, I am using PubNub. 
+For realtime live-updating the web interface, I am using PubNub.
 To use the service, you need to [sign up](http://pubnub.com) to obtain your API keys.
 
 ```bash
@@ -375,7 +377,7 @@ var spawn = child_process.spawn('raspistill', args);
 spawn.on('exit', function(code) {
   console.log('A photo is saved as '+filename+ ' with exit code, ' + code);
   i++;
-  
+
   // Detect cats from photos - see the next section
   ...
 ```
@@ -424,8 +426,8 @@ process.on('message', function(m) {
     var base64Img;
 
     if(cats.length > 0) {
-      base64Img = canvas.toDataURL(); 
-    } 
+      base64Img = canvas.toDataURL();
+    }
     process.send(base64Img);
     process.exit(0);
   });
@@ -441,7 +443,7 @@ Also to see how I used PubNub to stream the live photos on web browser, look at 
 
 ### Raspistill (Camera Software)
 
-- Raspistill continuously takes a bunch of photos when I set `t = 0` (and crashes Pi while so many child process is running) so I have set `t = 1`, which causes delay. It seems to take only integer. Cats are too fast to wait for a second. 
+- Raspistill continuously takes a bunch of photos when I set `t = 0` (and crashes Pi while so many child process is running) so I have set `t = 1`, which causes delay. It seems to take only integer. Cats are too fast to wait for a second.
 - The camera can't capture recognizable pics after the sun is set. The room light is too dark.
 
 ### KittyDar (Cat Facial Recognition)
@@ -451,9 +453,9 @@ Also to see how I used PubNub to stream the live photos on web browser, look at 
 
 #### The cat photos failed to be recognized
 
-![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_14.jpg "Jamie undetected") 
-![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_150.jpg "Jamie undetected") 
-![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_166.jpg "Jamie undetected") 
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_14.jpg "Jamie undetected")
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_150.jpg "Jamie undetected")
+![Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_166.jpg "Jamie undetected")
 ![Upside-down Jamie undetected](https://raw.githubusercontent.com/girliemac/RPi-KittyCam/master/photo/image_311.jpg "Jamie undetected")
 
 ## OMG, I demo'd KittyCam on Live TV Show!
@@ -465,11 +467,10 @@ OK, I hope you enjoyed my lengthy blog post!
 
 
 ## References
-- [Raspberry Pi](https://www.raspberrypi.org/): Teach, Learn, and Make with Raspberry Pi 
+- [Raspberry Pi](https://www.raspberrypi.org/): Teach, Learn, and Make with Raspberry Pi
 - [Node ARM](https://github.com/nathanjohnson320/node_arm): Install node.js on a raspberry pi in two easy steps
 - [Johnny-Five](http://johnny-five.io/): The original JavaScript Robotics programming framework
 - [Raspi-IO](https://github.com/nebrius/raspi-io): An IO plugin for Johnny-Five that provides support for the Raspberry Pi
-- [KittyDar](https://github.com/harthur/kittydar): Face detection for cats in JavaScript 
+- [KittyDar](https://github.com/harthur/kittydar): Face detection for cats in JavaScript
 - [Node Canvas](https://github.com/Automattic/node-canvas): A Cairo backed Canvas implementation for NodeJS
 - [PubNub](https://www.pubnub.com/): The global realtime Data Stream Network for IoT, mobile, and web applications
-

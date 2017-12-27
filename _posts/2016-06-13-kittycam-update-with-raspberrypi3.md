@@ -2,6 +2,8 @@
 title: Upgrading KittyCam with Raspberry Pi 3
 author: Tomomi Imura
 layout: post
+images:
+  - /assets/images/articles/2015/12/youtube-kittycam-thumb.jpg
 categories:
   - dev
   - raspberrypi
@@ -45,7 +47,7 @@ or download and install on terminal as I did:
 
 ```bash
 $ wget https://nodejs.org/dist/v4.4.5/node-v4.4.5-linux-armv7l.tar.xz
-$ tar -xvf node-v4.4.5-linux-armv7l.tar.xz 
+$ tar -xvf node-v4.4.5-linux-armv7l.tar.xz
 $ cd node-v4.4.5-linux-armv7l
 $ sudo cp -R * /usr/local/
 ```
@@ -121,4 +123,3 @@ I had chance to test it out while I was taking care of my friends' cats!
 
 
 I have given the talk about KittyCam in a few conferences and meetups so far, such as NodePDX in Portland and ForwardJS in San Francisco. My slide deck is available on [SlideShare](http://www.slideshare.net/tomomi/nodepdx-from-software-to-hardware-how-do-i-track-my-cat-with-javascript)!
-

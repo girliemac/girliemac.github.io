@@ -2,6 +2,9 @@
 title: Creating a Slack Command Bot from Scratch with Node.js & Distribute It
 author: Tomomi Imura
 layout: post
+description: My tutorial on how to build a Slack slash command and Slack OAuth
+images:
+  - /assets/images/articles/2016/10/slack-httpstatuscats-icons.png
 categories:
   - dev
   - bot
@@ -39,7 +42,7 @@ In Slack's official term, what you are going to do is called [Custom Integration
 
 Sign in to your Slack account and choose your command at [my.slack.com/services/new/slash-commands](https://my.slack.com/services/new/slash-commands). In my case, I entered `/httpstatus` and hit the **Add Slash Command Integration** button to go to the next page.
 
-You will see the Outgoing payload data with a token etc, but you don't need to worry about this in this moment. Just go ahead and fill out some of the fields. 
+You will see the Outgoing payload data with a token etc, but you don't need to worry about this in this moment. Just go ahead and fill out some of the fields.
 
 ![Slack config](/assets/images/articles/2016/10/slack-config-custom-integration.png)
 
@@ -220,8 +223,8 @@ Slack uses [OAuth 2.0](https://oauth.net/2/) for a user authentication. You can 
 
 Basically, what you are going to do are:
 
-1. Set up a web page with the button that passes some params to Slack. *(User: After clicking the button, Slack redirects the user to authenticate)*. 
-2. Your node app will receive a temporary `code` from Slack via `GET`. The temp code expires in 10 min. 
+1. Set up a web page with the button that passes some params to Slack. *(User: After clicking the button, Slack redirects the user to authenticate)*.
+2. Your node app will receive a temporary `code` from Slack via `GET`. The temp code expires in 10 min.
 3. Exchange the authorization code for an access token using the [`oauth.access`](https://api.slack.com/methods/oauth.access) API by `POST`ing. The auth process is done when your node app receives 200 OK. 
 4. Optionally, use the `token` to call another API to get the team name, so that you can redirect the user to the team URL, https://team-name.slack.com right after the auth is done.
 

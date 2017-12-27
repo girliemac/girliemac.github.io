@@ -2,6 +2,9 @@
 title: Developer Experience Matters
 author: Tomomi Imura
 layout: post
+description: A summary of my talk I gave at DevRel Summit in Seattle
+images:
+  - /assets/images/articles/2016/08/dx-jamie-comic.jpg
 categories:
   - DevRel
   - Developer
