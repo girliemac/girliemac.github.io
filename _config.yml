@@ -40,8 +40,8 @@ links:
     url: /blog
   - title: Preso
     url: /presentations
-  - title: Sketch Notes
-    url: /doodles
+  #- title: Sketch Notes
+    #url: /doodles
   - title: My CodePen
     url: https://codepen.io/girliemac
     external: true
