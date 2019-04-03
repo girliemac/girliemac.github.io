@@ -11,7 +11,7 @@ categories:
 
 ---
 
-As Emperor Akihito of Japan is set to abdicate soon, Japanese government announced on April 1st that the reign of the next emperor will be known as the Reiwa (令和) era.
+As Emperor Akihito of Japan is set to abdicate soon, the Japanese government announced on April 1st that the reign of the next emperor will be known as the Reiwa (令和) era.
 
 ![reiwa](https://cdn.cnn.com/cnnnext/dam/assets/190401111401-yoshihide-suga-reiwa-announcement-exlarge-169.jpg)
 
@@ -30,7 +30,7 @@ So yes, with the `Intl.DateTimeFormat` object, you can automatically print out t
 Without specifying a locale / language, `DateTimeFormat` uses the default locale and the default time zone, so when I am on my machine in the US:
 
 ```js
-`new Intl.DateTimeFormat().format(Date.now())` 
+new Intl.DateTimeFormat().format(Date.now())
 ```
 returns today's date in en-US as: 
 
