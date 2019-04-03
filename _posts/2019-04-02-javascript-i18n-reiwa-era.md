@@ -58,6 +58,10 @@ Okay, but you still see the Gregorian calendar year here. So how can you make it
 
 Well, the locale identifier, `ja-JP`, is not enough and you need to add an extention `-u-ca-japanese`. I don't know exactly what it means but all I can say is `ja-JP-u-ca-japanese` is an awkwardly complicated local code.
 
+*Edited: Thank you, [ジャンクリストフ](https://twitter.com/brandelune) for letting me know that `-u` in the identifier indicates an extension, `-ca` says defines a type of calendar, in this case, `-japanese` calendar.
+
+For more info on locale data, see: [Unicode Technical Standard #35](http://www.unicode.org/reports/tr35/#Locale_Extension_Key_and_Type_Data)
+
 ```js
 new Intl.DateTimeFormat('ja-JP-u-ca-japanese').format(Date.now())
 
