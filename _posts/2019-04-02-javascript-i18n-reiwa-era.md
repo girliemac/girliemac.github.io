@@ -66,7 +66,7 @@ For more info on locale data, see: [Unicode Technical Standard #35](http://www.u
 ```js
 new Intl.DateTimeFormat('ja-JP-u-ca-japanese').format(Date.now())
 
-// ""31/4/2""
+// "31/4/2"
 ```
 Now, we know it is the year 31. But what year is it? How can we know the Imperial name!?
 
