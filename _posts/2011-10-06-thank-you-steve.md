@@ -34,4 +34,4 @@ Thank you, Steve, and good bye.
 
 <div align="right">
   <img src="/assets/images/wp-content/uploads/2011/10/sad-mac.jpg" alt="sad mac" title="sad-mac" width="157" height="180" />
-</div></p>
+</div>
