@@ -15,6 +15,15 @@ I have most of my presentation slides hosted on [SlideShare](http://www.slidesha
 
 Some of my conference talks have been recorded and you can watch on YouTube etc.
 
+- ServerlessConf by IBM (San Francisco, CA) June 2019 
+[YouTube](https://www.youtube.com/watch?v=v-VgEI6TT68)
+
+- Voxxed Athens (Athens, Greece) June 2018
+[YouTube](https://www.youtube.com/watch?v=M4qvyyWNS4U)
+
+- Slack SPEC Conference (San Francisco, CA) May, 2018 
+[YouTube](https://www.youtube.com/watch?v=MaIKgAhGRbU)
+
 - DevXCon (San Francisco, CA) May 2017
 [YouTube](https://www.youtube.com/watch?v=4qucodmHNfs)
 
@@ -44,3 +53,5 @@ There are more. You can just google my name to find them, because I am not even 
 ### TV appearance
 
 Watch me interview by TechCrunch's Sarah Lane on [TWiT TV](https://twit.tv/shows/new-screen-savers/episodes/19)!
+
+![New ScreenSavers Show](/assets/images/screensavers.png)
