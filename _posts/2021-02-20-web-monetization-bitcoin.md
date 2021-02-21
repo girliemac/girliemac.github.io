@@ -66,7 +66,7 @@ Then pick a currency of your choice— USD, BTC, ETH, XRP, DOGE… there are 27 
 
 ![Screenshot - Uphold 3](/assets/images/articles/2021/02/uphold-transact-03.png)
 
-Copy the address that looks like `$ilp.uphold.com/6NxbkHNq9N84`:
+Copy the address that looks like `$ilp.uphold.com/SoMethIngLiKEthis0`:
 
 ![Screenshot - Uphold 4](/assets/images/articles/2021/02/uphold-transact-04.png)
 
