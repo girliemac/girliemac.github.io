@@ -8,9 +8,10 @@ images:
 categories:
   - bitcoin
   - cryptocurrency
+  - blockchain
   - dev
   - web
-  - w3c
+  - W3C
   - api
   - monetization
 ---
