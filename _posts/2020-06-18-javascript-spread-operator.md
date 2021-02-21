@@ -3,6 +3,8 @@ title: Spread Syntax "Three-dots" Tricks You Can Use Now
 author: Tomomi Imura
 layout: post
 description: Want to consume more syntactic sugar to energize your code? I'll share 6 tricks with the spread syntax that you can use now!
+images:
+  - assets/images/articles/2020/06/es6-spread.png
 categories:
   - ES6
   - javascript

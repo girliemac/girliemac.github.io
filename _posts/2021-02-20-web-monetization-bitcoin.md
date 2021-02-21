@@ -4,7 +4,7 @@ author: Tomomi Imura
 layout: post
 description: Web Monetization is a web platform API that allows websites to request micropayments from users facilitated by the browser
 images:
-  - /assets/images/articles/2021/02/doge-web-monetization-1000x420.jpg
+  - assets/images/articles/2021/02/doge-web-monetization-1000x420.jpg
 categories:
   - bitcoin
   - cryptocurrency
