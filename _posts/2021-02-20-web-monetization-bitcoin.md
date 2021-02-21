@@ -75,9 +75,9 @@ You will need the address in Coil (the next step) and in your HTML code later.
 
 ### Setting up Coil
 
-There are two membership types— Coil membership to support web-monetized content and developer membership for monetization. I am walking you through the latter.
+There are two membership types— Coil membership to support web-monetized content and creator membership for monetization. I am walking you through the latter.
 
-First, sign up for a [Coil creator account](https://coil.com/creator) and click **Start monetizing. It's free** button.
+First, sign up for a [**Coil creator account**](https://coil.com/creator) and click **Start monetizing. It's free** button.
 
 Once you created your account (and verified your email etc.), you will need to set up your payout wallet. 
 
@@ -112,7 +112,9 @@ Make sure to use your own ILP address as the meta content, unless you want me to
 
 Even if you don’t have your own websites, some content platforms do support Web Monetization. Take a look at the [list of providers](https://help.coil.com/docs/monetize/content/platforms).
 
-For example, if you write some technical content on Dev.to like I do, you can include your ILP address to monetize your content there too. Sign in and go to the [**Settings**](https://dev.to/settings/misc) > **Extensions** > **Web monetization**, and enter your ILP address there and save.
+For example, if you write some technical content on Dev.to like I do, you can include your ILP address to monetize your content there too. 
+
+Sign in and go to the [**Settings**](https://dev.to/settings/misc) > **Extensions** > **Web monetization**, and enter your ILP address there and save.
 
 ![devto](/assets/images/articles/2021/02/devto-monetize.png)
 
