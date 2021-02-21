@@ -17,13 +17,13 @@ categories:
 
 As I am writing this on Feb 20, 2021, Bitcoin ([CRYPTO:BTC](https://www.fool.com/quote/crypto/bitcoin/btc/)) has hit a $1 trillion market cap. Investors who thought it was a joke have started jumped into the cryptocurrencies frenzy. 
 
-![doge meme](/assets/images/articles/2021/02/doge-web-monetization-1000x420.jpg)
-
 Although the ideas of decentralized market and blockchain are fascinating, I didn’t think the value of BTC would increase much, so I have spent them on things like yoga pants and flights to Europe. I try not to think about how much worth it in today's rate. There are just too many what-if scenarios in my life. (BTW, the economy-class ticket I got was about 1.3 BTC. I let you figure it out.)
 
 Now friends are asking me about advice on cryptocurrency and [Coinbase referrals](https://www.coinbase.com/join/girlie_mac), however, because I can be the worst financial advisor to ruin your life, I am not going to tell you how to invest, or even how to mine in this article, instead, I am going to tell you about **Web Monetization** and how to receive micropayments in $BTC and other currencies including various cryptocurrencies, like $DOGE if you want, through your website.
 
 I may sound like I am selling you snake oil, but I just thought this may be a good opportunity to talk about the web standard topic. 
+
+![doge meme](/assets/images/articles/2021/02/doge-web-monetization-1000x420.jpg)
 
 
 ## Web Monetization & Interledger
