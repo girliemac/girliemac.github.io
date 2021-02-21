@@ -1,5 +1,5 @@
 ---
-title: Support Web Monetization and HODL! - How to receive micropayment in $BTC (or $Ɖoge) on your website
+title: Support Web Monetization and HODL! — How to receive micropayment in $BTC (or $Ɖoge) on your website
 author: Tomomi Imura
 layout: post
 description: Web Monetization is a web platform API that allows websites to request micropayments from users facilitated by the browser
@@ -76,7 +76,7 @@ You will need the address in Coil (the next step) and in your HTML code later.
 
 ### Setting up Coil
 
-There are two membership types— Coil membership to support web-monetized content and creator membership for monetization. I am walking you through the latter.
+There are two membership types— [Coil membership](https://coil.com/signup) to support web-monetized content and [creator membership](https://coil.com/creator) for you to monetize. I am walking you through the latter—
 
 First, sign up for a [**Coil creator account**](https://coil.com/creator) and click **Start monetizing. It's free** button.
 
