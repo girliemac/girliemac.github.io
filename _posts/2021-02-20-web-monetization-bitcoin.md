@@ -50,7 +50,7 @@ And **Uphold** is a digital wallet that allows you to receive payments with an I
 
 Coil supports multiple wallets, but I am using Uphold to generate your Interledger payment pointer here.
 
-First, open an [Uphold](https://uphold.com/) account. ([Use this referral link](https://uphold.com/signup?referral=5f261fb476) if you want $10 worth BTC!)
+First, open an [Uphold](https://uphold.com/signup?referral=5f261fb476) account. 
 
 Once you signed up and all, you are going to generate an ILP address (Interledger payment pointer). 
 
