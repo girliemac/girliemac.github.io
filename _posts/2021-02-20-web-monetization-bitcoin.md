@@ -40,7 +40,7 @@ Although implementation for browsers is straight-forward, it requires some prere
 The services I personally use to implement Web Monetization are:
 
 1. [Coil](https://coil.com) - Web Monetization service provider
-2. [Uphold](https://uphold.com) - ILP-enabled wallet
+2. [Uphold](https://uphold.com/signup?referral=5f261fb476) - ILP-enabled wallet
 
 How **Coil** works is that is checks if the website is web monetized, and if it does, stream the payment to the site. A small amount is paid by Coil members, who pay a flat fee to access exclusive content and ad-free experiences. Coil provides browser extensions for browsers including Chrome, Edge, and Firefox, while [**Puma browser**](https://www.pumabrowser.com/) is natively powered on Coil and supports Web Monetization API out of the box.
 
@@ -50,7 +50,7 @@ And **Uphold** is a digital wallet that allows you to receive payments with an I
 
 Coil supports multiple wallets, but I am using Uphold to generate your Interledger payment pointer here.
 
-First, open an [Uphold](https://uphold.com/) account. 
+First, open an [Uphold](https://uphold.com/) account. ([Use this referral link](https://uphold.com/signup?referral=5f261fb476) if you want $10 worth BTC!)
 
 Once you signed up and all, you are going to generate an ILP address (Interledger payment pointer). 
 
