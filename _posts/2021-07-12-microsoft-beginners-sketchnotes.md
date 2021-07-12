@@ -35,10 +35,10 @@ Recently, we have released a few open-source beginner-focused curriculums on Git
 
 Here are some of my setchnotes—
 
-Web Dev 101 - Intro programming
+*Web Dev 101 - Intro programming*
 ![WebDev - Intro Programming](/assets/images/articles/2021/07/webdev101-programming.png)
 
-Machine Learning - Regressions
+*Machine Learning - Regressions*
 ![Machine Learning - Regressions](/assets/images/articles/2021/07/ml-regression.png)
 
 The curriculums are under MIT license and the content including my sketchnotes are under Creative Commons. The printable versions are [available as TIFF format](https://github.com/girliemac/a-picture-is-worth-a-1000-words) too.
