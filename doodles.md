@@ -5,7 +5,7 @@ title: Sketch Notes and Doodles
 tagline: A List of Posts about doodles and sketch notes
 description: My sketch notes and doodles from conferences and more!
 images:
-  - /assets/images/articles/2017/12/git-purr.jpg
+  - /assets/images/articles/2021/07/webdev101-programming.png
 tags: [blog]
-modified: 12-26-2017
+modified: 07-12-2021
 ---
