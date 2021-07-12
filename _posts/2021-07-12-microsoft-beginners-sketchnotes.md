@@ -1,5 +1,5 @@
 ---
-title: Doodles from Microsoft beginners series 
+title: Doodles from Microsoft Beginners Series 
 author: Tomomi Imura
 layout: post
 description: My sketchnotes from Web Dev for Beginners and ML for Beginners by Microsoft
