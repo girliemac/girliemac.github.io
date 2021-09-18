@@ -58,5 +58,7 @@ If you are also a visual learners who want to follow people who doodle on Twitte
 - [Lara Martín](https://twitter.com/lariki) - Android, live sketchnotes
 - [Virginia Poltrack](https://twitter.com/VPoltrack) - Android, Star Wars
 - [Maggie Appleton](https://twitter.com/Mappletons) - Web, UX
+- [Amy, a.k.a. sailor mercury](https://twitter.com/sailorhg) - programming, [Bubble sort zines](https://shop.bubblesort.io/)
+- [Julia Evans](https://twitter.com/b0rk) - Unix, programming
 
 I am pretty sure I missed a lot of people here, so please let me know if you know more wonderful techinical artists.
