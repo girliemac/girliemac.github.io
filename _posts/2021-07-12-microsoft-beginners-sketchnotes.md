@@ -14,7 +14,7 @@ categories:
   - microsoft
 ---
 
-A year ago, [I joined Microsoft](https://twitter.com/girlie_mac/status/1280180665367982080) and it has been an interesting ride so far, despite the fact that I joined during the pademic. (Leaving the previous workplace, Slack without going to office was interesting in a different way though...)
+A year ago, [I joined Microsoft](https://twitter.com/girlie_mac/status/1280180665367982080) and it has been an interesting ride so far, despite the fact that I joined during the pandemic. (Leaving the previous workplace, Slack without going to office was interesting in a different way though...)
 
 Although my main focus is supporting Microsoft 365 developer products, I have gotten chances to work on numerous projects outside of the immediate team, including open technologies, education, localization, etc. to keep myself involved in something I have been always working on for my entire tech career, and not tied to the Microsoft proprietary technologies.
 
