@@ -18,7 +18,7 @@ The [Device API Working Group][1] has published a third Last Call working draft 
 
 ## Use cases
 
-There has been some (dirty) jokes about the use cases in past, and recently Terrence Eden came up with funny use cases that actually may be somehow useful([*Malicious Use of the HTML5 Vibrate API*][4]).
+There has been some (dirty) jokes about the use cases in past, and recently Terence Eden came up with funny use cases that actually may be somehow useful([*Malicious Use of the HTML5 Vibrate API*][4]).
 
 But seriuously, what can be good use cases for this API for everyday web expeiences besides gaming? 
 I was even thinking that this API can be more harmful than useful when there is no UI indication (or permission setting like Geolocation) associated with it, and confuses users if developers abuse the API.
