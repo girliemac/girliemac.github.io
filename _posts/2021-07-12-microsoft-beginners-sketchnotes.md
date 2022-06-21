@@ -14,7 +14,7 @@ categories:
   - microsoft
 ---
 
-A year ago, [I joined Microsoft](https://twitter.com/girlie_mac/status/1280180665367982080) and it has been an interesting ride so far, despite the fact that I joined during the pademic. (Leaving the previous workplace, Slack without going to office was interesting in a different way though...)
+A year ago, [I joined Microsoft](https://twitter.com/girlie_mac/status/1280180665367982080) and it has been an interesting ride so far, despite the fact that I joined during the pandemic. (Leaving the previous workplace, Slack without going to office was interesting in a different way though...)
 
 Although my main focus is supporting Microsoft 365 developer products, I have gotten chances to work on numerous projects outside of the immediate team, including open technologies, education, localization, etc. to keep myself involved in something I have been always working on for my entire tech career, and not tied to the Microsoft proprietary technologies.
 
@@ -30,11 +30,11 @@ I remember people kept telling me how the visual reference helped them.
 
 And now I think this can be totally applied for this different type of science— computer science and programming, and my new teammates in Microsoft agree.
 
-In fact, Microsoft advocacy team fully enbraces the way to support developers with visual helps and already have amazing sketchnote and technical illustration artists who are actually software engineers and program managers, including [Nitya Narasimhan](https://twitter.com/sketchthedocs), [Jen Looper](https://twitter.com/jenlooper), [Dasani Madipalli](https://twitter.com/dasani_decoded), and [Wassim Chegham](https://twitter.com/manekinekko).
+In fact, Microsoft advocacy team fully embraces the way to support developers with visual helps and already have amazing sketchnote and technical illustration artists who are actually software engineers and program managers, including [Nitya Narasimhan](https://twitter.com/sketchthedocs), [Jen Looper](https://twitter.com/jenlooper), [Dasani Madipalli](https://twitter.com/dasani_decoded), and [Wassim Chegham](https://twitter.com/manekinekko).
 
 Recently, we have released a few open-source beginner-focused curriculums on GitHub, including [Web Dev for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners) and [ML for Beginners](https://github.com/microsoft/ML-For-Beginners), and I worked on sketchnote-style summaries for some lessons.
 
-Here are some of my setchnotes—
+Here are some of my sketchnotes—
 
 *Web Dev 101 - Intro programming*
 ![WebDev - Intro Programming](/assets/images/articles/2021/07/webdev101-programming.png)
@@ -62,4 +62,4 @@ If you are also a visual learners who want to follow people who doodle on Twitte
 - [Amy, a.k.a. sailor mercury](https://twitter.com/sailorhg) - programming, [Bubble sort zines](https://shop.bubblesort.io/)
 - [Julia Evans](https://twitter.com/b0rk) - Unix, programming
 
-I am pretty sure I missed a lot of people here, so please let me know if you know more wonderful techinical artists.
+I am pretty sure I missed a lot of people here, so please let me know if you know more wonderful technical artists.
